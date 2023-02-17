@@ -1,0 +1,6 @@
+{
+    "plugins": ["splitter","expandable-chapters"],
+     "styles": {
+        "website": "styles/style.css"
+     }
+}

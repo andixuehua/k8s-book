@@ -1,0 +1,5054 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>pipeline基础 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="pipeline.html" />
+    
+    
+    <link rel="prev" href="install.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Docker
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../docker/basic.html">
+            
+                <a href="../docker/basic.html">
+            
+                    
+                    常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../docker/config.html">
+            
+                <a href="../docker/config.html">
+            
+                    
+                    配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../docker/dockerfile.html">
+            
+                <a href="../docker/dockerfile.html">
+            
+                    
+                    Dockerfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../docker/registry.html">
+            
+                <a href="../docker/registry.html">
+            
+                    
+                    Registry Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    cri-o
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../cri-o/cri-o.html">
+            
+                <a href="../cri-o/cri-o.html">
+            
+                    
+                    cri-o
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../cri-o/crictl.html">
+            
+                <a href="../cri-o/crictl.html">
+            
+                    
+                    crictl
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    查看安装配置及访问
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../config/kubeconfig.html">
+            
+                <a href="../config/kubeconfig.html">
+            
+                    
+                    kubeconfig
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../basic/kubectl.html">
+            
+                <a href="../basic/kubectl.html">
+            
+                    
+                    kubectl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../config/api.html">
+            
+                <a href="../config/api.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../config/component.html">
+            
+                <a href="../config/component.html">
+            
+                    
+                    核心服务组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../config/network.html">
+            
+                <a href="../config/network.html">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    基本配置
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../basic/label.html">
+            
+                <a href="../basic/label.html">
+            
+                    
+                    label & annoation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../basic/namespace.html">
+            
+                <a href="../basic/namespace.html">
+            
+                    
+                    namespace
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../basic/registry.html">
+            
+                <a href="../basic/registry.html">
+            
+                    
+                    配置registry的访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" >
+            
+                <span>
+            
+                    
+                    pod
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="../basic/pod.html">
+            
+                <a href="../basic/pod.html">
+            
+                    
+                    pod
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="../basic/init-container.html">
+            
+                <a href="../basic/init-container.html">
+            
+                    
+                    init-container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.3" data-path="../basic/sidecar.html">
+            
+                <a href="../basic/sidecar.html">
+            
+                    
+                    sidecar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.4" data-path="../basic/lifecycle.html">
+            
+                <a href="../basic/lifecycle.html">
+            
+                    
+                    生命周期lifecycle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.5" data-path="../basic/health.html">
+            
+                <a href="../basic/health.html">
+            
+                    
+                    health检查
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" >
+            
+                <span>
+            
+                    
+                    controller
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="../basic/replicaset.html">
+            
+                <a href="../basic/replicaset.html">
+            
+                    
+                    ReplicasSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.2" data-path="../basic/deployment.html">
+            
+                <a href="../basic/deployment.html">
+            
+                    
+                    deployment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.3" data-path="../basic/statefulset.html">
+            
+                <a href="../basic/statefulset.html">
+            
+                    
+                    statefulset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.4" data-path="../basic/daemonset.html">
+            
+                <a href="../basic/daemonset.html">
+            
+                    
+                    daemonset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.5" data-path="../basic/job.html">
+            
+                <a href="../basic/job.html">
+            
+                    
+                    job & cronjob
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" >
+            
+                <span>
+            
+                    
+                    配置挂载
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="../basic/configmap-1.html">
+            
+                <a href="../basic/configmap-1.html">
+            
+                    
+                    挂载configmap文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="../basic/configmap-2.html">
+            
+                <a href="../basic/configmap-2.html">
+            
+                    
+                    挂载secret
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.3" data-path="../pv/empty.html">
+            
+                <a href="../pv/empty.html">
+            
+                    
+                    挂载空目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../basic/svc.html">
+            
+                <a href="../basic/svc.html">
+            
+                    
+                    Service/svc
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    网络
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../network/dns.html">
+            
+                <a href="../network/dns.html">
+            
+                    
+                    coreDNS/kubeDNS/pod DNS/DNS policy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../network/controller.html">
+            
+                <a href="../network/controller.html">
+            
+                    
+                    ingress controller/class
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../network/ingress.html">
+            
+                <a href="../network/ingress.html">
+            
+                    
+                    应用ingress的建立
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../network/route.html">
+            
+                <a href="../network/route.html">
+            
+                    
+                    ingress/会话保持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../network/hostnetwork.html">
+            
+                <a href="../network/hostnetwork.html">
+            
+                    
+                    hostnetwork部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    pod高级资源与调度
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../resource/label.html">
+            
+                <a href="../resource/label.html">
+            
+                    
+                    按label调度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../resource/node.html">
+            
+                <a href="../resource/node.html">
+            
+                    
+                    按节点调度亲和性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../resource/taint.html">
+            
+                <a href="../resource/taint.html">
+            
+                    
+                    污点与容忍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../resource/node.html">
+            
+                <a href="../resource/node.html">
+            
+                    
+                    node管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../resource/limits.html">
+            
+                <a href="../resource/limits.html">
+            
+                    
+                    limitrange
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../resource/quota.html">
+            
+                <a href="../resource/quota.html">
+            
+                    
+                    配额
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../basic/hpa.html">
+            
+                <a href="../basic/hpa.html">
+            
+                    
+                    hpa
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../basic/downwardapi.html">
+            
+                <a href="../basic/downwardapi.html">
+            
+                    
+                    downwardapi
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    用户与权限
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../user/auth.html">
+            
+                <a href="../user/auth.html">
+            
+                    
+                    身份认证Authenticating
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../user/user.html">
+            
+                <a href="../user/user.html">
+            
+                    
+                    user/role/rolebinding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../user/sa.html">
+            
+                <a href="../user/sa.html">
+            
+                    
+                    serviceaccount
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../user/scc.html">
+            
+                <a href="../user/scc.html">
+            
+                    
+                    security context
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../network/policy.html">
+            
+                <a href="../network/policy.html">
+            
+                    
+                    networkpolicy
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    存储
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../pv/pvc.html">
+            
+                <a href="../pv/pvc.html">
+            
+                    
+                    pvc/pv/storageclass/手工建立
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../pv/rwo.html">
+            
+                <a href="../pv/rwo.html">
+            
+                    
+                    卷的挂载和读写模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../pv/pv-extend.html">
+            
+                <a href="../pv/pv-extend.html">
+            
+                    
+                    卷的扩容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../pv/claimpolicy.html">
+            
+                <a href="../pv/claimpolicy.html">
+            
+                    
+                    卷数据的保留和复用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../pv/statefulset.html">
+            
+                <a href="../pv/statefulset.html">
+            
+                    
+                    statefulset的卷
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../pv/deployment.html">
+            
+                <a href="../pv/deployment.html">
+            
+                    
+                    demployment的卷
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../pv/hostpath.html">
+            
+                <a href="../pv/hostpath.html">
+            
+                    
+                    hostpath
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="../pv/mysql.html">
+            
+                <a href="../pv/mysql.html">
+            
+                    
+                    mysql pv
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    监控
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../install/monitor.html">
+            
+                <a href="../install/monitor.html">
+            
+                    
+                    集群的监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" >
+            
+                <span>
+            
+                    
+                    应用的监控
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.2.1" data-path="../monitor/jvm.html">
+            
+                <a href="../monitor/jvm.html">
+            
+                    
+                    JVM的监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.2" data-path="../monitor/mysql.html">
+            
+                <a href="../monitor/mysql.html">
+            
+                    
+                    mySQL的监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../monitor/alert.html">
+            
+                <a href="../monitor/alert.html">
+            
+                    
+                    自定义报警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../monitor/prometheus.html">
+            
+                <a href="../monitor/prometheus.html">
+            
+                    
+                    promethues指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" >
+            
+                <span>
+            
+                    
+                    报警规则梳理
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    日志
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" >
+            
+                <span>
+            
+                    
+                    收集
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1.1" data-path="../install/efk.html">
+            
+                <a href="../install/efk.html">
+            
+                    
+                    EFK部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.1.2" data-path="../log/filebeat-sidecar.html">
+            
+                <a href="../log/filebeat-sidecar.html">
+            
+                    
+                    filebeat sidecar
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" >
+            
+                <span>
+            
+                    
+                    CI
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../jenkins/prelog.html">
+            
+                <a href="../jenkins/prelog.html">
+            
+                    
+                    CICD规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" >
+            
+                <span>
+            
+                    
+                    使用Jenkins
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.2.1" data-path="../jenkins/plan.html">
+            
+                <a href="../jenkins/plan.html">
+            
+                    
+                    规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.2" data-path="../jenkins/install.html">
+            
+                <a href="../jenkins/install.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.3" data-path="../jenkins/plugin.html">
+            
+                <a href="../jenkins/plugin.html">
+            
+                    
+                    配置jenkins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.4" data-path="../jenkins/job.html">
+            
+                <a href="../jenkins/job.html">
+            
+                    
+                    job构建示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.5" data-path="../jenkins/basic.html">
+            
+                <a href="../jenkins/basic.html">
+            
+                    
+                    pipeline声明式基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.6" data-path="../jenkins/pipeline.html">
+            
+                <a href="../jenkins/pipeline.html">
+            
+                    
+                    piepline示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.7" data-path="../jenkins/jenkinsfile.html">
+            
+                <a href="../jenkins/jenkinsfile.html">
+            
+                    
+                    Jenkinsfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.8" data-path="../jenkins/sharedlib.html">
+            
+                <a href="../jenkins/sharedlib.html">
+            
+                    
+                    使用sharedlibrary进行构建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.9" data-path="../jenkins/k8s.html">
+            
+                <a href="../jenkins/k8s.html">
+            
+                    
+                    jenkins与k8s的集成配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" >
+            
+                <span>
+            
+                    
+                    gitlab CI
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.3.1" data-path="install.html">
+            
+                <a href="install.html">
+            
+                    
+                    安装gitlab/runner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.12.3.2" data-path="basic.html">
+            
+                <a href="basic.html">
+            
+                    
+                    pipeline基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3.3" data-path="pipeline.html">
+            
+                <a href="pipeline.html">
+            
+                    
+                    runner流水线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3.4" data-path="ci.html">
+            
+                <a href="ci.html">
+            
+                    
+                    CI/CD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3.5" data-path="k8s.html">
+            
+                <a href="k8s.html">
+            
+                    
+                    关联k8s
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="../docker/dockerfile.html">
+            
+                <a href="../docker/dockerfile.html">
+            
+                    
+                    Dockerfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.5" data-path="../ci/case.md">
+            
+                <span>
+            
+                    
+                    案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" >
+            
+                <span>
+            
+                    
+                    CD
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../cd/new-app.html">
+            
+                <a href="../cd/new-app.html">
+            
+                    
+                    应用的建立的基本方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../cd/policy.html">
+            
+                <a href="../cd/policy.html">
+            
+                    
+                    部署策略
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="../cd/bluegreen.html">
+            
+                <a href="../cd/bluegreen.html">
+            
+                    
+                    蓝绿
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="../cd/ab.html">
+            
+                <a href="../cd/ab.html">
+            
+                    
+                    金丝雀
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.5" data-path="../cd/jenkins-cd.html">
+            
+                <a href="../cd/jenkins-cd.html">
+            
+                    
+                    使用Jenkins发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.6" data-path="../cd/argocd.html">
+            
+                <a href="../cd/argocd.html">
+            
+                    
+                    使用argoCD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" >
+            
+                <span>
+            
+                    
+                    Helm
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../helm/basic.html">
+            
+                <a href="../helm/basic.html">
+            
+                    
+                    架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../helm/arch.html">
+            
+                <a href="../helm/arch.html">
+            
+                    
+                    模板语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" data-path="../helm/detail.html">
+            
+                <a href="../helm/detail.html">
+            
+                    
+                    部署命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" >
+            
+                <span>
+            
+                    
+                    operator
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../operator/operator.html">
+            
+                <a href="../operator/operator.html">
+            
+                    
+                    operator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" >
+            
+                <span>
+            
+                    
+                    API调用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" >
+            
+                <span>
+            
+                    
+                    Python Lib
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    基础安装
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../install/docker.html">
+            
+                <a href="../install/docker.html">
+            
+                    
+                    阿里源替换,doker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../install/repo.md">
+            
+                <span>
+            
+                    
+                    离线yum repo/httpd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../install/dns.html">
+            
+                <a href="../install/dns.html">
+            
+                    
+                    dnsmasq
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../install/ha.html">
+            
+                <a href="../install/ha.html">
+            
+                    
+                    haproxy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../install/keepalived.md">
+            
+                <span>
+            
+                    
+                    keepalvied
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../basic/registry.html">
+            
+                <a href="../basic/registry.html">
+            
+                    
+                    registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" >
+            
+                <span>
+            
+                    
+                    [harbor]
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <span>
+            
+                    
+                    安装
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../install/single-1.19.html">
+            
+                <a href="../install/single-1.19.html">
+            
+                    
+                    单master测试环境 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../install/ha.html">
+            
+                <a href="../install/ha.html">
+            
+                    
+                    多master生产环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../install/token.html">
+            
+                <a href="../install/token.html">
+            
+                    
+                    kubeadm token/ca
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" >
+            
+                <span>
+            
+                    
+                    离线安装
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" >
+            
+                <span>
+            
+                    
+                    安装前的证书规划
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" >
+            
+                <span>
+            
+                    
+                    1.21以上containered替换安装
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" >
+            
+                <span>
+            
+                    
+                    Network
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../install/metric.html">
+            
+                <a href="../install/metric.html">
+            
+                    
+                    metric server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../install/ingress.html">
+            
+                <a href="../install/ingress.html">
+            
+                    
+                    nginx ingress controller
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../install/dashboard.html">
+            
+                <a href="../install/dashboard.html">
+            
+                    
+                    dashboard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../install/monitor.html">
+            
+                <a href="../install/monitor.html">
+            
+                    
+                    Prometheus/grafana
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../install/nfs.html">
+            
+                <a href="../install/nfs.html">
+            
+                    
+                    NFS storageclass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="../install/efk.html">
+            
+                <a href="../install/efk.html">
+            
+                    
+                    EFK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="../install/etcd.html">
+            
+                <a href="../install/etcd.html">
+            
+                    
+                    ETCD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" >
+            
+                <span>
+            
+                    
+                    Day2配置
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../day2/ntp.md">
+            
+                <span>
+            
+                    
+                    ntp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" >
+            
+                <span>
+            
+                    
+                    [basic user]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" >
+            
+                <span>
+            
+                    
+                    [ladp/AD]
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" >
+            
+                <span>
+            
+                    
+                    Upgrade
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../upgrade/cluster.md">
+            
+                <span>
+            
+                    
+                    离线升级集群
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../upgrade/ca.html">
+            
+                <a href="../upgrade/ca.html">
+            
+                    
+                    证书更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" >
+            
+                <span>
+            
+                    
+                    servicemesh
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../istio/control.md">
+            
+                <span>
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../istio/bookinfo.md">
+            
+                <span>
+            
+                    
+                    bookinfo 演示
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >pipeline基础</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="gitlabci-cd&#x6D41;&#x6C34;&#x7EBF;&#x8BED;&#x6CD5;">GitLabCI-CD&#x6D41;&#x6C34;&#x7EBF;&#x8BED;&#x6CD5;</h1>
+<p>[<img src="https://picx.zhimg.com/v2-b92f3ca4263ed4e071f9f10b27d34b8a_xs.jpg?source=172ae18b" alt="&#x4E00;&#x4E2A;&#x4EBA;"></p>
+<p>![img](<a href="https://pic3.zhimg.com/80/v2-67d0709769868b1fbe1d7bec9468301a_720w.webp" target="_blank">https://pic3.zhimg.com/80/v2-67d0709769868b1fbe1d7bec9468301a_720w.webp</a></p>
+<h3 id="&#x76EE;&#x5F55;">&#x76EE;&#x5F55;</h3>
+<h3 id="&#x73AF;&#x5883;">&#x73AF;&#x5883;</h3>
+<pre><code class="lang-text">gitlab-ce:14.9.3-ce.0
+</code></pre>
+<h3 id="1&#x3001;gitlabci-pipeline">1&#x3001;GitLabCI Pipeline</h3>
+<p><img src="https://pic4.zhimg.com/80/v2-a6290ed25f350434b2ade3abf58bf21f_720w.webp" alt="img"></p>
+<h3 id="1pipeline">1.Pipeline</h3>
+<p>&#x5728;&#x6BCF;&#x4E2A;&#x9879;&#x76EE;&#x4E2D;&#xFF0C;&#x4F7F;&#x7528;&#x540D;&#x4E3A;</p>
+<p><img src="https://pic1.zhimg.com/80/v2-2762448bee32f4d5328d3c6c84764234_720w.webp" alt="img"></p>
+<p>&#x7684;<strong>YAML</strong>&#x6587;&#x4EF6;&#x914D;&#x7F6E;GitLab CI/CD</p>
+<p><img src="https://pic3.zhimg.com/80/v2-2d626679a77237ad1c4d7ad440d14746_720w.webp" alt="img"></p>
+<p>&#x6D41;&#x6C34;&#x7EBF;&#x3002;</p>
+<p><img src="https://pic2.zhimg.com/80/v2-b6a7d09297eea0612adf01a6d7f1b5f5_720w.webp" alt="img"></p>
+<h3 id="2stages">2.Stages</h3>
+<p>&#x4E00;&#x6761;&#x6D41;&#x6C34;&#x7EBF;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x82E5;&#x5E72;&#x4E2A;&#x9636;&#x6BB5;&#xFF0C; &#x4E00;&#x4E2A;&#x9636;&#x6BB5;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x82E5;&#x5E72;&#x4E2A;&#x4F5C;&#x4E1A;&#x3002;</p>
+<p><img src="https://pic4.zhimg.com/80/v2-4bfac9f609ad3965a04ed63296e92097_720w.webp" alt="img"></p>
+<h3 id="3job">3.Job</h3>
+<p>&#x4F5C;&#x4E1A;&#x662F;&#x5177;&#x4F53;&#x8981;&#x6267;&#x884C;&#x7684;&#x4EFB;&#x52A1;&#xFF0C;&#x547D;&#x4EE4;&#x811A;&#x672C;&#x8BED;&#x53E5;&#x7684;&#x96C6;&#x5408;&#xFF1B;</p>
+<p><img src="https://pic2.zhimg.com/80/v2-55094b46716d870aec01f05068c9a28d_720w.webp" alt="img"></p>
+<h3 id="4runner">4.Runner</h3>
+<p>Runner&#x662F;&#x6BCF;&#x4E2A;&#x4F5C;&#x4E1A;&#x7684;&#x6267;&#x884C;&#x8282;&#x70B9; &#xFF1B;&#x6BCF;&#x4E2A;&#x4F5C;&#x4E1A;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x6807;&#x7B7E;&#x9009;&#x62E9;&#x4E0D;&#x540C;&#x7684;&#x6784;&#x5EFA;&#x8282;&#x70B9;&#xFF1B;</p>
+<p><img src="https://pic4.zhimg.com/80/v2-e57fb1ba3a71f4014683a89d3ca8b07b_720w.webp" alt="img"></p>
+<h3 id="2&#x3001;pipeline&#x5F00;&#x53D1;&#x5DE5;&#x5177;">2&#x3001;Pipeline&#x5F00;&#x53D1;&#x5DE5;&#x5177;</h3>
+<h3 id="1&#x53EF;&#x89C6;&#x5316;&#x7F16;&#x8F91;&#x5668;">1.&#x53EF;&#x89C6;&#x5316;&#x7F16;&#x8F91;&#x5668;</h3>
+<p>&#x53D8;&#x66F4;.gitlab-ci.yml&#x6587;&#x4EF6;&#x540E;&#xFF0C; &#x53EF;&#x4EE5;&#x901A;&#x8FC7;</p>
+<pre><code class="lang-text">Visualize
+</code></pre>
+<p>&#x5BF9;CI&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x5B9A;&#x4E49;&#x8FDB;&#x884C;&#x53EF;&#x89C6;&#x5316;&#xFF1B;</p>
+<p><img src="https://pic3.zhimg.com/80/v2-daeee2b976b01951fd3974eeebfbcaa6_720w.webp" alt="img"></p>
+<h3 id="2&#x8BED;&#x6CD5;&#x68C0;&#x6D4B;&#x6821;&#x9A8C;">2.&#x8BED;&#x6CD5;&#x68C0;&#x6D4B;&#x6821;&#x9A8C;</h3>
+<p>&#x901A;&#x8FC7;Lint&#x53EF;&#x4EE5;&#x68C0;&#x6D4B;&#x5F53;&#x524D;CI&#x6587;&#x4EF6;&#x662F;&#x5426;&#x5B58;&#x5728;&#x8BED;&#x6CD5;&#x9519;&#x8BEF;&#xFF1B;&#x82E5;&#x5B58;&#x5728;&#x8BED;&#x6CD5;&#x9519;&#x8BEF;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x63D0;&#x793A;&#x8FDB;&#x884C;&#x4FEE;&#x6B63;&#xFF1B;</p>
+<p><img src="https://pic1.zhimg.com/80/v2-1392b90a24fb880b7c56ed62a7e50f00_720w.webp" alt="img"></p>
+<h3 id="3&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x65E5;&#x5FD7;">3.&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x65E5;&#x5FD7;</h3>
+<p>&#x4E00;&#x6761;&#x6D41;&#x6C34;&#x7EBF;&#x5305;&#x542B;&#x5F88;&#x591A;&#x4E2A;&#x4F5C;&#x4E1A;&#xFF0C;&#x6BCF;&#x4E2A;&#x4F5C;&#x4E1A;&#x7684;&#x8FD0;&#x884C;&#x65E5;&#x5FD7;&#x53EF;&#x4EE5;&#x5728;</p>
+<pre><code class="lang-text">Jobs
+</code></pre>
+<p>&#x754C;&#x9762;&#x770B;&#x5230;&#x3002;</p>
+<p><img src="https://pic3.zhimg.com/80/v2-212d7d46646d0eb1e2f4aebcf1e1273e_720w.webp" alt="img"></p>
+<h3 id="3&#x3001;pipeline&#x6838;&#x5FC3;&#x8BED;&#x6CD5;">3&#x3001;Pipeline&#x6838;&#x5FC3;&#x8BED;&#x6CD5;</h3>
+<h3 id="1stages-&#x9636;&#x6BB5;&#x63A7;&#x5236;">1.stages &#x9636;&#x6BB5;&#x63A7;&#x5236;</h3>
+<p>&#x6E90;&#x6587;&#x6863;</p>
+<ul>
+<li>.pre&#x9636;&#x6BB5;&#x7684;&#x4F5C;&#x4E1A;&#x603B;&#x662F;&#x5728;&#x6D41;&#x6C34;&#x7EBF;<strong>&#x5F00;&#x59CB;&#x65F6;</strong>&#x6267;&#x884C;&#xFF1B;</li>
+<li>.post&#x9636;&#x6BB5;&#x7684;&#x4F5C;&#x4E1A;&#x603B;&#x662F;&#x5728;&#x6D41;&#x6C34;&#x7EBF;<strong>&#x7ED3;&#x675F;&#x65F6;</strong>&#x6267;&#x884C;&#xFF1B;</li>
+</ul>
+<pre><code class="lang-text">stages:
+  - build
+  - test
+  - deploy
+
+ciinit:
+  tags:
+    - build
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - build
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+</code></pre>
+<p><img src="https://pic1.zhimg.com/80/v2-ff560bd02def12fcc46d3268c7791170_720w.webp" alt="img"></p>
+<p>&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x6216;&#x8005;&#x591A;&#x4E2A;&#x4F5C;&#x4E1A;&#xFF0C;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x9636;&#x6BB5;&#x540D;&#x79F0;&#xFF0C;&#x5219;&#x8BE5;&#x9636;&#x6BB5;&#x4E0B;&#x7684;&#x6240;&#x6709;&#x4F5C;&#x4E1A;&#x90FD;&#x5E76;&#x884C;&#x8FD0;&#x884C;&#xFF1B;&#x5982;&#x679C;&#x4E0D;&#x80FD;&#x5E76;&#x884C;&#x8FD0;&#x884C;&#xFF0C;&#x9700;&#x8981;&#x68C0;&#x67E5;runner&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x7684;</p>
+<pre><code class="lang-text">concurrent
+</code></pre>
+<p>&#x503C;&#xFF0C; &#x8981;&#x5927;&#x4E8E;1&#x3002;</p>
+<p>&#x81EA;&#x5DF1;&#x6D4B;&#x8BD5;&#x8FC7;&#x7A0B;</p>
+<ul>
+<li>stages&#x91CC;&#x53EF;&#x4EE5;&#x5B9A;&#x4E49;&#x5404;&#x4E2A;stage&#x6267;&#x884C;&#x7684;&#x524D;&#x540E;&#x987A;&#x5E8F;&#xFF0C;&#x4F46;&#x662F;.pre&#x548C;.post
+2&#x4E2A;&#x9636;&#x6BB5;&#x4E0D;&#x53D7;&#x5176;&#x63A7;&#x5236;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-f5fc0cebdde4eba1d86c47d90e1ef6c9_720w.webp" alt="img"></p>
+<ul>
+<li>.pre&#x548C;.post
+2&#x4E2A;&#x9636;&#x6BB5;&#x6D4B;&#x8BD5;&#xFF1A;</li>
+</ul>
+<p>&#x7F16;&#x5199;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF0C;&#x5E76;&#x63D0;&#x4EA4;&#x8FD0;&#x884C;&#xFF1A;</p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+ciinit:
+  tags:
+    - build
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - build
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - maven
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+
+test:
+  tags:
+    - maven  
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+
+deploy:
+  tags:
+    - maven  
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<p>&#x9884;&#x89C8;&#xFF1A;</p>
+<p><img src="https://pic4.zhimg.com/80/v2-d85681dd011d12e361c84108805582d3_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-d85681dd011d12e361c84108805582d3_720w.webp" alt="img"></p>
+<p>&#x63D0;&#x4EA4;&#x8FD0;&#x884C;&#xFF1A;</p>
+<p><img src="https://pic1.zhimg.com/80/v2-1c50aaa9820c20303ecdfa8add78e868_720w.webp" alt="img"></p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x7B26;&#x5408;&#x9884;&#x671F;&#xFF0C;</p>
+<pre><code class="lang-text">.pre
+</code></pre>
+<p>&#x5148;&#x8FD0;&#x884C;&#xFF0C;</p>
+<pre><code class="lang-text">.post
+</code></pre>
+<p>&#x6700;&#x540E;&#x8FD0;&#x884C;&#xFF1A;</p>
+<p><img src="https://pic4.zhimg.com/80/v2-53d90a5f1b85b0c11698f6fe4fc1e407_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<p>&#x5B9E;&#x8DF5;&#xFF1A;</p>
+<pre><code class="lang-text">gitlab-ruuner&#x4E0A;&#x4F5C;&#x4E1A;&#x5E76;&#x884C;&#x8BBE;&#x7F6E;
+</code></pre>
+<p>-2022.5.6</p>
+<blockquote>
+<p>&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x6216;&#x8005;&#x591A;&#x4E2A;&#x4F5C;&#x4E1A;&#xFF0C;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x9636;&#x6BB5;&#x540D;&#x79F0;&#xFF0C;&#x5219;&#x8BE5;&#x9636;&#x6BB5;&#x4E0B;&#x7684;&#x6240;&#x6709;&#x4F5C;&#x4E1A;&#x90FD;&#x5E76;&#x884C;&#x8FD0;&#x884C;&#xFF1B;&#x5982;&#x679C;&#x4E0D;&#x80FD;&#x5E76;&#x884C;&#x8FD0;&#x884C;&#xFF0C;&#x9700;&#x8981;&#x68C0;&#x67E5;runner&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x7684;
+concurrent
+&#x503C;&#xFF0C; &#x8981;&#x5927;&#x4E8E;1&#x3002;</p>
+</blockquote>
+<ul>
+<li>&#x6B64;&#x65F6;&#xFF0C;&#x6A21;&#x62DF;&#x6709;2&#x4E2A;job&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;test&#x9636;&#x6BB5;</li>
+</ul>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+ciinit:
+  tags:
+    - build
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - build
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - maven
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+
+test:
+  tags:
+    - maven  
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 10
+test1:
+  tags:
+    - maven  
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 10
+
+
+
+deploy:
+  tags:
+    - maven  
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<p><img src="https://pic3.zhimg.com/80/v2-6e41da646bed9f2accc336c2f566c7fa_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-72172f3f688674672e25fdfff193082d_720w.webp" alt="img"></p>
+<p>&#x63D0;&#x4EA4;&#x5E76;&#x89C2;&#x5BDF;&#x8FD0;&#x884C;&#x72B6;&#x6001;&#xFF1A;</p>
+<p><img src="https://pic2.zhimg.com/80/v2-0365f7958d5fb1c9cf662bb1c92a9da9_720w.webp" alt="img"></p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x6B64;&#x65F6;Test&#x9636;&#x6BB5;&#x7684;2&#x4E2A;&#x4F5C;&#x4E1A;&#x4E0D;&#x662F;&#x5E76;&#x884C;&#x8FD0;&#x884C;&#x7684;&#xFF0C;&#x8FD9;&#x662F;&#x4E3A;&#x4EC0;&#x4E48;&#x5462;&#xFF1F;</p>
+<ul>
+<li>&#x6211;&#x4EEC;&#x6765;&#x770B;&#x4E0B;gitlab-runner&#x4E0A;&#x7684;&#x5173;&#x4E8E;concurrent(&#x5E76;&#x884C;)
+&#x914D;&#x7F6E;</li>
+</ul>
+<pre><code class="lang-text">[root@gitlab-runner ~]#cat /etc/gitlab-runner/config.toml #&#x8FD9;&#x91CC;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5F53;&#x524D;&#x7684;
+</code></pre>
+<p><img src="https://pic2.zhimg.com/80/v2-4bc201c772710233abef83faf5e54ff5_720w.webp" alt="img"></p>
+<pre><code class="lang-text">[root@gitlab-runner ~]#vim /etc/gitlab-runner/config.toml
+concurrent = 10 
+#&#x4FEE;&#x6539;&#x5B8C;&#x4FDD;&#x5B58;&#x9000;&#x51FA;&#x5C31;&#x597D;&#xFF0C;&#x81EA;&#x52A8;&#x751F;&#x6548;
+</code></pre>
+<ul>
+<li>&#x518D;&#x6B21;&#x8FD0;&#x884C;&#x521A;&#x624D;&#x90A3;&#x6761;pipeline&#xFF0C;&#x89C2;&#x5BDF;&#x6548;&#x679C;</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-59c6d167e673268f6ef659c3e1072788_720w.webp" alt="img"></p>
+<p>&#x6B64;&#x65F6;&#x5C31;&#x53EF;&#x4EE5;&#x770B;&#x5230;Test&#x9636;&#x6BB5;2&#x4E2A;&#x4F5C;&#x4E1A;&#x540C;&#x65F6;&#x8FD0;&#x884C;&#x4E86;&#xFF0C;&#x7B26;&#x5408;&#x9884;&#x671F;&#xFF01;</p>
+<h3 id="2variables-&#x73AF;&#x5883;&#x53D8;&#x91CF;">2.variables &#x73AF;&#x5883;&#x53D8;&#x91CF;</h3>
+<p>&#x53D8;&#x91CF;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x548C;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#xFF1B;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x662F;&#x6574;&#x4E2A;&#x6D41;&#x6C34;&#x7EBF;&#x53EF;&#x4EE5;&#x7528;&#x7684;&#xFF0C;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x662F;&#x4EC5;&#x5728;&#x4F5C;&#x4E1A;&#x4E2D;&#x751F;&#x6548;&#x7684;&#xFF1B;</p>
+<pre><code class="lang-text">variables:
+  DEPLOY_ENV: &quot;dev&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - maven
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+     - echo  ${DEPLOY_ENV}
+</code></pre>
+<p>&#x5B9E;&#x8DF5;&#xFF1A;</p>
+<pre><code class="lang-text">&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x4F18;&#x5148;&#x7EA7;&#x9AD8;&#x4E8E;&#x5168;&#x5C40;&#x53D8;&#x91CF;
+</code></pre>
+<p>-0222.5.6</p>
+<ul>
+<li>&#x7F16;&#x5199;&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;(&#x5B8C;&#x6574;&#x4EE3;&#x7801;)</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-8fc42f05c574bb4c6e17840062539c14_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - maven
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - build
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - build
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - maven
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+
+test:
+  tags:
+    - maven  
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 10
+test1:
+  tags:
+    - maven  
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 10
+
+
+
+deploy:
+  tags:
+    - maven  
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x89C2;&#x5BDF;&#x6548;&#x679C;</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-f977a4367dc909a81bffbaf4bdcad9b9_720w.webp" alt="img"></p>
+<p>&#x770B;&#x4E0B;</p>
+<pre><code class="lang-text">deploy_job
+</code></pre>
+<p>&#x7684;&#x8FD0;&#x884C;&#x65E5;&#x5FD7;&#xFF1A;</p>
+<p><img src="https://pic2.zhimg.com/80/v2-40ff1ccfd380f31e59a38784bf3ab731_720w.webp" alt="img"></p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x8F93;&#x51FA;&#x4E3A;test&#xFF0C;&#x9A8C;&#x8BC1;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x4F18;&#x5148;&#x7EA7;&#x66F4;&#x6539;&#x3002;</p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="3job-&#x4F5C;&#x4E1A;&#x9ED8;&#x8BA4;&#x914D;&#x7F6E;">3.job &#x4F5C;&#x4E1A;&#x9ED8;&#x8BA4;&#x914D;&#x7F6E;</h3>
+<p>&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x4F5C;&#x4E1A;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E00;&#x822C;&#x5B9A;&#x4E49;&#x54EA;&#x4E9B;&#x5173;&#x952E;&#x5B57;&#x5462;&#xFF1F; &#x4F5C;&#x4E1A;&#x5728;&#x54EA;&#x4E2A;runner&#x8FD0;&#x884C;&#xFF1F; &#x4F5C;&#x4E1A;&#x5C5E;&#x4E8E;&#x6D41;&#x6C34;&#x7EBF;&#x4E2D;&#x7684;&#x54EA;&#x4E2A;&#x9636;&#x6BB5;&#xFF1F; &#x8FD9;&#x4E2A;&#x4F5C;&#x4E1A;&#x8981;&#x505A;&#x4EC0;&#x4E48;&#xFF1F;</p>
+<pre><code class="lang-text">variables:
+  BUILD_RUNNER: k8s
+
+## job&#x540D;&#x79F0;
+cibuild:
+  tags:   
+    - build
+    - ${BUILD_RUNNER} #&#x6CE8;&#x610F;&#xFF1A;&#x5728;14&#x7248;&#x672C;&#x4EE5;&#x524D;&#xFF0C;tags&#x8FD9;&#x91CC;&#x662F;&#x4E0D;&#x652F;&#x6301;&#x4F7F;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x7684;&#xFF01;
+    - devops
+  stage: build
+  before_script: #&#x50CF;&#x8FD9;&#x4E2A;before_script&#x65E2;&#x53EF;&#x4EE5;&#x5728;pipeline&#x91CC;&#x5B9A;&#x4E49;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;job&#x91CC;&#x5B9A;&#x4E49;&#xFF01;
+    - echo &quot;job before_script.......&quot;
+  script:
+    - echo &quot;job script.....&quot;
+  after_script:
+    - echo &quot;job after_script.......&quot;
+</code></pre>
+<p>&#x53C2;&#x6570;&#x89E3;&#x6790;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x8BED;&#x6CD5;&#x5173;&#x952E;&#x5B57;</th>
+<th>&#x4F5C;&#x7528;</th>
+<th>&#x5907;&#x6CE8;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>variables</td>
+<td>&#x5B9A;&#x4E49;&#x4F5C;&#x4E1A;&#x4E2D;&#x7684;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF1B;</td>
+<td></td>
+</tr>
+<tr>
+<td>tags</td>
+<td>&#x6839;&#x636E;&#x6807;&#x7B7E;&#x9009;&#x62E9;&#x8FD0;&#x884C;&#x4F5C;&#x4E1A;&#x7684;&#x6784;&#x5EFA;&#x8282;&#x70B9;&#xFF1B;</td>
+<td>&#x591A;&#x4E2A;&#x6807;&#x7B7E;&#xFF0C; &#x5219;&#x5339;&#x914D;&#x5177;&#x6709;&#x6240;&#x6709;&#x6807;&#x7B7E;&#x7684;&#x6784;&#x5EFA;&#x8282;&#x70B9;&#xFF1B;GitLab14.1&#x7248;&#x672C;&#x540E;&#xFF0C; &#x6807;&#x7B7E;&#x7684;&#x503C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x53D8;&#x91CF;&#xFF1B;GitLab14.3&#x7248;&#x672C;&#x540E;&#xFF0C; &#x6807;&#x7B7E;&#x6570;&#x91CF;&#x5FC5;&#x987B;&#x5C0F;&#x4E8E;50&#xFF1B;</td>
+</tr>
+<tr>
+<td>stage</td>
+<td>&#x6307;&#x5B9A;&#x5F53;&#x524D;&#x4F5C;&#x4E1A;&#x6240;&#x5C5E;&#x7684;&#x9636;&#x6BB5;&#x540D;&#x79F0;&#xFF1B;</td>
+<td></td>
+</tr>
+<tr>
+<td>before_script</td>
+<td>&#x4F5C;&#x4E1A;&#x5728;&#x8FD0;&#x884C;&#x524D;&#x6267;&#x884C;&#x7684;Shell&#x547D;&#x4EE4;&#x884C;&#xFF1B;</td>
+<td></td>
+</tr>
+<tr>
+<td>script</td>
+<td>&#x4F5C;&#x4E1A;&#x5728;&#x8FD0;&#x884C;&#x4E2D;&#x6267;&#x884C;&#x7684;Shell&#x547D;&#x4EE4;&#x884C;&#xFF1B;</td>
+<td>&#x6BCF;&#x4E2A;&#x4F5C;&#x4E1A;&#x81F3;&#x5C11;&#x8981;&#x5305;&#x542B;&#x4E00;&#x4E2A;script&#xFF1B;</td>
+</tr>
+<tr>
+<td>after_script</td>
+<td>&#x4F5C;&#x4E1A;&#x5728;&#x8FD0;&#x884C;&#x540E;&#x6267;&#x884C;&#x7684;Shell&#x547D;&#x4EE4;&#x884C;&#xFF1B;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5B9E;&#x8DF5;&#xFF1A;</p>
+<pre><code class="lang-text">&#x5C06;&#x5168;&#x90E8;&#x4F5C;&#x4E1A;&#x91CC;&#x7684;tags&#x5185;&#x5BB9;&#x7528;&#x53D8;&#x91CF;&#x66FF;&#x6362; &amp; before_script&#x548C;after_script &#x6D4B;&#x8BD5;
+</code></pre>
+<ul>
+<li>&#x5148;&#x7528;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x66FF;&#x6362;&#x6389;&#x6BCF;&#x4E2A;&#x4F5C;&#x4E1A;&#x91CC;&#x7684;runner tags&#xFF1A;</li>
+</ul>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<p>&#x63D0;&#x4EA4;&#x8FD0;&#x884C;&#xFF1A;</p>
+<p><img src="https://pic3.zhimg.com/80/v2-9151b863cbfb3770e444ef4c61534ec2_720w.webp" alt="img"></p>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#xFF1A;&#x5982;&#x679C;</p>
+<pre><code class="lang-text">before_script&#x548C;after_script
+</code></pre>
+<p>&#x5B9A;&#x4E49;&#x5728;pipeline&#x91CC;&#xFF0C;&#x5219;&#x6BCF;&#x4E2A;&#x4F5C;&#x4E1A;&#x91CC;&#x90FD;&#x4F1A;&#x8FD0;&#x884C;&#x8FD9;2&#x4E2A;&#x811A;&#x672C;&#xFF1B;&#x5982;&#x679C;&#x662F;&#x5B9A;&#x4E49;&#x5728;&#x67D0;&#x4E2A;job&#x91CC;&#xFF0C;&#x5219;&#x53EA;&#x4F1A;&#x5728;&#x5176;job&#x91CC;&#x8FD0;&#x884C;&#xFF01;</p>
+<p><img src="https://pic1.zhimg.com/80/v2-0c54c2d9432c12fe086731614bb1adec_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-17bcf6bf34e85ea46e7b4d5fe5343e69_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="4job-&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x63A7;&#x5236;">4.job &#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x63A7;&#x5236;</h3>
+<table>
+<thead>
+<tr>
+<th>&#x8BED;&#x6CD5;&#x5173;&#x952E;&#x5B57;</th>
+<th>&#x4F5C;&#x7528;</th>
+<th>&#x5907;&#x6CE8;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>allow_failure</td>
+<td>&#x63A7;&#x5236;&#x4F5C;&#x4E1A;&#x72B6;&#x6001;&#xFF0C;&#x662F;&#x5426;&#x5141;&#x8BB8;&#x4F5C;&#x4E1A;&#x5931;&#x8D25;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;false &#x3002;&#x542F;&#x7528;&#x540E;&#xFF0C;&#x5982;&#x679C;&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x5931;&#x8D25;&#xFF0C;&#x8BE5;&#x4F5C;&#x4E1A;&#x5C06;&#x5728;&#x7528;&#x6237;&#x754C;&#x9762;&#x4E2D;&#x663E;&#x793A;&#x6A59;&#x8272;&#x8B66;&#x544A;&#x3002;</td>
+<td>&#x7BA1;&#x9053;&#x5C06;&#x8BA4;&#x4E3A;&#x4F5C;&#x4E1A;&#x6210;&#x529F;/&#x901A;&#x8FC7;&#xFF0C;&#x4E0D;&#x4F1A;&#x88AB;&#x963B;&#x585E;&#x3002; &#x5047;&#x8BBE;&#x6240;&#x6709;&#x5176;&#x4ED6;&#x4F5C;&#x4E1A;&#x5747;&#x6210;&#x529F;&#xFF0C;&#x5219;&#x8BE5;&#x4F5C;&#x4E1A;&#x7684;&#x9636;&#x6BB5;&#x53CA;&#x5176;&#x7BA1;&#x9053;&#x5C06;&#x663E;&#x793A;&#x76F8;&#x540C;&#x7684;&#x6A59;&#x8272;&#x8B66;&#x544A;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x5173;&#x8054;&#x7684;&#x63D0;&#x4EA4;&#x5C06;&#x88AB;&#x6807;&#x8BB0;&#x4E3A;&quot;&#x901A;&#x8FC7;&quot;&#xFF0C;&#x800C;&#x4E0D;&#x4F1A;&#x53D1;&#x51FA;&#x8B66;&#x544A;&#x3002;</td>
+</tr>
+<tr>
+<td>when</td>
+<td>&#x6839;&#x636E;&#x72B6;&#x6001;&#x63A7;&#x5236;&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;, &#x5F53;&#x524D;&#x9762;&#x4F5C;&#x4E1A;&#x6210;&#x529F;&#x6216;&#x8005;&#x5931;&#x8D25;&#x65F6;&#x8FD0;&#x884C;&#x3002;</td>
+<td>on_success &#x524D;&#x9762;&#x9636;&#x6BB5;&#x6210;&#x529F;&#x65F6;&#x6267;&#x884C;(&#x9ED8;&#x8BA4;&#x503C;);on_failure &#x524D;&#x9762;&#x9636;&#x6BB5;&#x5931;&#x8D25;&#x65F6;&#x6267;&#x884C;&#xFF1B;always &#x603B;&#x662F;&#x6267;&#x884C;&#xFF1B;manual &#x624B;&#x52A8;&#x6267;&#x884C;&#xFF1B;delayed &#x5EF6;&#x8FDF;&#x6267;&#x884C;&#xFF1B;start_in&apos;5&apos;5 seconds30 minutes1 day1 weeknever &#x6C38;&#x4E0D;&#x6267;&#x884C;&#xFF1B;</td>
+</tr>
+<tr>
+<td>retry</td>
+<td>&#x4F5C;&#x4E1A;&#x91CD;&#x65B0;&#x8FD0;&#x884C;&#xFF0C;&#x9047;&#x5230;&#x9519;&#x8BEF;&#x91CD;&#x65B0;&#x8FD0;&#x884C;&#x7684;&#x6B21;&#x6570;&#x3002;</td>
+<td>&#x503C;&#x4E3A;&#x6574;&#x6570;&#x7B49;&#x4E8E;&#x6216;&#x5927;&#x4E8E;0&#xFF0C;&#x4F46;&#x5C0F;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;2&#x5F02;&#x5E38;&#x5206;&#x7C7B; (&#x4E00;&#x822C;&#x5C31;&#x662F;3&#x6B21;)</td>
+</tr>
+<tr>
+<td>timeout</td>
+<td>&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x8D85;&#x65F6;&#x65F6;&#x95F4;&#xFF1B;</td>
+<td></td>
+</tr>
+<tr>
+<td>rules</td>
+<td>&#x6839;&#x636E;&#x7279;&#x5B9A;&#x7684;&#x53D8;&#x91CF;&#x6216;&#x6587;&#x4EF6;&#x53D8;&#x66F4;&#x6765;&#x63A7;&#x5236;&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#xFF1B;</td>
+<td>ifchangesexists</td>
+</tr>
+<tr>
+<td>needs</td>
+<td>&#x4F5C;&#x4E1A;&#x4F9D;&#x8D56;&#x63A7;&#x5236;&#xFF1B;</td>
+<td>needs: [&quot;&#x4F5C;&#x4E1A;&#x540D;&#x79F0;&quot;]</td>
+</tr>
+<tr>
+<td>parallel</td>
+<td>&#x751F;&#x6210;&#x591A;&#x4E2A;&#x4F5C;&#x4E1A;&#xFF0C;&#x5E76;&#x884C;&#x8FD0;&#x884C;</td>
+<td>parallel:5&#x503C; 2-50&#x4E4B;&#x95F4;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1&#x3001;allowfailure-&#x5141;&#x8BB8;&#x4F5C;&#x4E1A;&#x5931;&#x8D25;">1&#x3001;allow_failure &#x5141;&#x8BB8;&#x4F5C;&#x4E1A;&#x5931;&#x8D25;</h3>
+<p>&#x6E90;&#x6587;&#x6863;</p>
+<pre><code class="lang-text">cibuild:
+  tags:
+    - build
+  stage: build
+  script:
+    - echo1 &quot;job script.....&quot;    ## &#x62A5;&#x9519;&#xFF1A;&#x547D;&#x4EE4;&#x627E;&#x4E0D;&#x5230;
+</code></pre>
+<p><img src="https://pic3.zhimg.com/80/v2-f30a5815f441f9c0be7f624a710e8092_720w.webp" alt="img"></p>
+<p>&#x6DFB;&#x52A0;&#x540E;&#xFF1A;</p>
+<pre><code class="lang-text">cibuild:
+  tags:
+    - build
+  stage: build
+  script:
+    - echo1 &quot;job script.....&quot;
+  allow_failure: true
+</code></pre>
+<p><img src="https://pic1.zhimg.com/80/v2-c5c20c134a67059983ef0c33f17d8734_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#xFF1A;</p>
+<pre><code class="lang-text">allow_failure
+</code></pre>
+<p>-2022.5.6</p>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-0d712f3c3cfccb7a397e04f32d9f0799_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - ech
+    - sleep 3
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x8FD0;&#x884C;&#xFF0C;&#x89C2;&#x5BDF;&#x6548;&#x679C;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-81b3ed56aa8f44b8b2489deb4590dae2_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-0d7cf46a1e51fd76cbfb573b37467ddd_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-bca6be33becc0802c2f17dd499be5a4a_720w.webp" alt="img"></p>
+<p>&#x7B26;&#x5408;&#x9884;&#x671F;&#x6548;&#x679C;&#xFF0C;&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="2&#x3001;when-&#x72B6;&#x6001;&#x63A7;&#x5236;&#x548C;&#x8FD0;&#x884C;&#x65B9;&#x5F0F;">2&#x3001;when &#x72B6;&#x6001;&#x63A7;&#x5236;&#x548C;&#x8FD0;&#x884C;&#x65B9;&#x5F0F;</h3>
+<p>&#x6E90;&#x6587;&#x6863;</p>
+<ul>
+<li><p>&#x6839;&#x636E;&#x4E0A;&#x6E38;&#x4F5C;&#x4E1A;&#x7684;&#x72B6;&#x6001;&#x51B3;&#x5B9A;</p>
+</li>
+<li><ul>
+<li>&#x5F53;&#x524D;&#x4F5C;&#x4E1A;&#x662F;&#x5426;&#x8FD0;&#x884C;&#xFF1F;</li>
+</ul>
+</li>
+<li><p>&#x8FD0;&#x884C;&#x7684;&#x65B9;&#x5F0F;&#xFF1F;&#xFF08;&#x624B;&#x52A8;/&#x81EA;&#x52A8;/&#x5B9A;&#x65F6;&#xFF09;</p>
+</li>
+</ul>
+<pre><code class="lang-text">cibuild:
+  tags:
+    - build
+  stage: build
+  before_script:
+    - echo1 &quot;job before_script.......&quot;
+  script:
+    - echo &quot;job script.....&quot;
+  after_script:
+    - echo &quot;job after_script.......&quot;
+  allow_failure: false
+
+citest1:
+  tags:
+    - build
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+  when: on_success   #&#x53EA;&#x6709;&#x4E0A;&#x9762;&#x4F5C;&#x4E1A;&#x6210;&#x529F;&#x540E;&#x624D;&#x4F1A;&#x8FD0;&#x884C;&#x3002;
+</code></pre>
+<p>&#x6D4B;&#x8BD5;</p>
+<pre><code class="lang-text">when&#x7684;&#x624B;&#x52A8;&#x6267;&#x884C;
+</code></pre>
+<p>-20222.5.6</p>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;</li>
+</ul>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - ech
+    - sleep 3
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x9A8C;&#x8BC1;</li>
+</ul>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x624B;&#x52A8;&#x6267;&#x884C;&#x64CD;&#x4F5C;&#xFF1A;(&#x5BA1;&#x6279;&#x73AF;&#x8282;)</p>
+<p><img src="https://pic4.zhimg.com/80/v2-4cd8d3f2a24a6146a27987df26d24f03_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-39b9e0efd8a0b959d74dadb96ad50338_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<p>&#x6D4B;&#x8BD5;</p>
+<pre><code class="lang-text">when &#x5EF6;&#x8FDF;&#x6267;&#x884C;
+</code></pre>
+<p>-2022.5.6</p>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-b0c139d596030a4d1a51c100a979797e_720w.webp" alt="img"></p>
+<p>&#x5B8C;&#x6574;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - ech
+    - sleep 3
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x9A8C;&#x8BC1;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-aea0d814cc8ab274f7b28a6fedb136e1_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="3&#x3001;timeout&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x8D85;&#x65F6;&#x65F6;&#x95F4;">3&#x3001;timeout&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x8D85;&#x65F6;&#x65F6;&#x95F4;</h3>
+<pre><code class="lang-text">build:
+  script: build.sh
+  timeout: 3 hours 30 minutes
+
+test:
+  script: rspec
+  timeout: 3h 30m
+</code></pre>
+<h3 id="4&#x3001;retry-&#x4F5C;&#x4E1A;&#x5931;&#x8D25;&#x540E;&#x91CD;&#x8BD5;&#x6B21;&#x6570;">4&#x3001;retry &#x4F5C;&#x4E1A;&#x5931;&#x8D25;&#x540E;&#x91CD;&#x8BD5;&#x6B21;&#x6570;</h3>
+<p><img src="https://pic2.zhimg.com/80/v2-dcc78d9474302fcc6f80f4f7e786b4b5_720w.webp" alt="img"></p>
+<pre><code class="lang-text">cibuild:
+  tags:
+    - build
+  stage: build
+  retry: 2
+  before_script:
+    - echo1 &quot;job before_script.......&quot;
+  script:
+    - echo &quot;job script.....&quot;
+  after_script:
+    - echo &quot;job after_script.......&quot;
+  allow_failure: false
+</code></pre>
+<p>&#x6839;&#x636E;&#x7279;&#x5B9A;&#x7684;&#x9519;&#x8BEF;&#x5339;&#x914D;&#xFF1A;</p>
+<pre><code class="lang-text">always &#xFF1A;&#x5728;&#x53D1;&#x751F;&#x4EFB;&#x4F55;&#x6545;&#x969C;&#x65F6;&#x91CD;&#x8BD5;&#xFF08;&#x9ED8;&#x8BA4;&#xFF09;&#x3002;
+unknown_failure &#xFF1A;&#x5F53;&#x5931;&#x8D25;&#x539F;&#x56E0;&#x672A;&#x77E5;&#x65F6;&#x3002;
+script_failure &#xFF1A;&#x811A;&#x672C;&#x5931;&#x8D25;&#x65F6;&#x91CD;&#x8BD5;&#x3002;
+api_failure &#xFF1A;API&#x5931;&#x8D25;&#x91CD;&#x8BD5;&#x3002;
+stuck_or_timeout_failure &#xFF1A;&#x4F5C;&#x4E1A;&#x5361;&#x4F4F;&#x6216;&#x8D85;&#x65F6;&#x65F6;&#x3002;
+runner_system_failure &#xFF1A;&#x6784;&#x5EFA;&#x8282;&#x70B9;&#x7684;&#x7CFB;&#x7EDF;&#x53D1;&#x751F;&#x6545;&#x969C;&#x3002;
+missing_dependency_failure: &#x4F9D;&#x8D56;&#x4E22;&#x5931;&#x3002;
+runner_unsupported &#xFF1A;Runner&#x4E0D;&#x53D7;&#x652F;&#x6301;&#x3002;
+stale_schedule &#xFF1A;&#x65E0;&#x6CD5;&#x6267;&#x884C;&#x5EF6;&#x8FDF;&#x7684;&#x4F5C;&#x4E1A;&#x3002;
+job_execution_timeout&#xFF1A;&#x4F5C;&#x4E1A;&#x8FD0;&#x884C;&#x8D85;&#x65F6;&#x3002;
+archived_failure &#xFF1A;&#x4F5C;&#x4E1A;&#x5DF2;&#x5B58;&#x6863;&#x4E14;&#x65E0;&#x6CD5;&#x8FD0;&#x884C;&#x3002;
+unmet_prerequisites &#xFF1A;&#x4F5C;&#x4E1A;&#x672A;&#x80FD;&#x5B8C;&#x6210;&#x5148;&#x51B3;&#x6761;&#x4EF6;&#x4EFB;&#x52A1;&#x3002;
+scheduler_failure &#xFF1A;&#x8C03;&#x5EA6;&#x5931;&#x8D25;&#x3002;
+data_integrity_failure &#xFF1A;&#x7ED3;&#x6784;&#x5B8C;&#x6574;&#x6027;&#x95EE;&#x9898;&#x3002;
+
+
+####
+max &#xFF1A;&#x6700;&#x5927;&#x91CD;&#x8BD5;&#x6B21;&#x6570;  when &#xFF1A;&#x91CD;&#x8BD5;&#x5931;&#x8D25;&#x7684;&#x9519;&#x8BEF;&#x7C7B;&#x578B;
+
+cibuild:
+  tags:
+    - build
+  stage: build
+  retry:
+    max: 2
+    when:
+      - script_failure
+  before_script:
+    - echo1 &quot;job before_script.......&quot;
+  script:
+    - echo &quot;job script.....&quot;
+  after_script:
+    - echo &quot;job after_script.......&quot;
+  allow_failure: false
+</code></pre>
+<h3 id="5&#x3001;needs-&#x4F5C;&#x4E1A;&#x5173;&#x8054;&#x8FD0;&#x884C;">5&#x3001;needs &#x4F5C;&#x4E1A;&#x5173;&#x8054;&#x8FD0;&#x884C;</h3>
+<p>&#x6E90;&#x6587;&#x6863;</p>
+<ul>
+<li>needs &#x6307;&#x5B9A;&#x8981;&#x4F9D;&#x8D56;&#x7684;&#x4F5C;&#x4E1A;&#x540D;&#x79F0;</li>
+</ul>
+<pre><code class="lang-text">cibuild:
+  tags:
+    - build
+  stage: build
+  script:
+    - echo &quot;mvn clean package&quot;
+    - sleep 30 
+
+citest1:
+  tags:
+    - build
+  stage: test
+  needs: [&quot;cibuild&quot;]
+  script:
+    - echo &quot;mvn test&quot;
+</code></pre>
+<p><img src="https://pic4.zhimg.com/80/v2-7a5abb1a15c34349e7c089d27747b7bf_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;</p>
+<pre><code class="lang-text">needs
+</code></pre>
+<p>-2022.5.6</p>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;&#xFF1A;</li>
+</ul>
+<p><img src="data:image/svg+xml;utf8,&lt;svg xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;637&apos; height=&apos;472&apos;&gt;&lt;/svg" alt="img"></p>
+<p>&#x5B8C;&#x6574;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - ech
+    - sleep 10
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+  needs: #&#x6CE8;&#x610F;&#xFF1A;&#x5F53;needs&#x548C;&#x4E0A;&#x9762;&#x5EF6;&#x8FDF;&#x5728;&#x4E00;&#x8D77;&#x65F6;&#xFF0C;needs&#x4F18;&#x5148;&#x7EA7;&#x66F4;&#x9AD8;&#xFF01;
+    - test
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x9A8C;&#x8BC1;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-59402a5fb17d25e17c71c5f61ddf49ef_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="6&#x3001;parallel-&#x5E76;&#x884C;&#x8FD0;&#x884C;">6&#x3001;parallel &#x5E76;&#x884C;&#x8FD0;&#x884C;</h3>
+<p>&#x6E90;&#x6587;&#x6863;</p>
+<pre><code class="lang-text">demojobs:
+  stage: test
+  parallel: 3
+  script: mvn test
+</code></pre>
+<p><img src="https://pic3.zhimg.com/80/v2-9790dbdb78ff3a3067c83a75b8a4de82_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;</p>
+<pre><code class="lang-text">parallel
+</code></pre>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-a3c32d2f312e2ff6c7d8b1794a2b5983_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+  parallel: 5
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - ech
+    - sleep 10
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+  needs:
+    - test
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x9A8C;&#x8BC1;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-3842115e0c5d50ae3bf291e425f52971_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="7&#x3001;rules&#x6839;&#x636E;&#x53D8;&#x91CF;&#x6587;&#x4EF6;&#x63A7;&#x5236;">7&#x3001;rules&#x6839;&#x636E;&#x53D8;&#x91CF;/&#x6587;&#x4EF6;&#x63A7;&#x5236;</h3>
+<p>&#x6E90;&#x6587;&#x6863;</p>
+<p>citest1 config key may not be used with</p>
+<pre><code class="lang-text">rules
+</code></pre>
+<p>: when.</p>
+<p>&#x6839;&#x636E;&#x6761;&#x4EF6;&#xFF08;&#x53D8;&#x91CF;&#xFF09;&#x5224;&#x65AD;&#xFF1A; IF</p>
+<p><img src="https://pic4.zhimg.com/80/v2-dbc6047ea0ab051a4daedaa09a94fb4b_720w.webp" alt="img"></p>
+<pre><code class="lang-text">variables:
+  DOMAIN: example.com
+
+codescan:
+  stage: build
+  tags:
+    - build
+  rules:
+    - if: &apos;$DOMAIN == &quot;example.com&quot;&apos;
+      when: manual
+    - when: on_success
+  script:
+    - echo &quot;codescan&quot;
+    - sleep 5;
+  #parallel: 5
+</code></pre>
+<p>&#x6839;&#x636E;&#x6587;&#x4EF6;&#x5224;&#x65AD;:</p>
+<pre><code class="lang-text">changes
+exists
+</code></pre>
+<p><img src="https://pic1.zhimg.com/80/v2-85fb997d518b30d506f52bd6da1719e0_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-9c0ea139a1319d10f40c6c32e5d1fffb_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-52d8571fce7b292c96dd7923781e3460_720w.webp" alt="img"></p>
+<pre><code class="lang-text">#exists
+citest1:
+  tags:
+    - build
+  stage: test
+  rules:
+    - exists:
+        - Dockerfile
+      when: manual
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+
+#variables
+variables:
+  ENV_TYPE: &quot;dev&quot;
+
+cddeploy:
+  tags:
+    - build
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_REF_NAME == &quot;master&quot;
+      variables:
+        ENV_TYPE: &quot;prod&quot;
+  script:
+    - echo &quot;Deploy env ${ENV_TYPE}&quot;
+</code></pre>
+<p>&#x6D4B;&#x8BD5;</p>
+<pre><code class="lang-text">&#x6839;&#x636E;&#x6761;&#x4EF6;&#xFF08;&#x53D8;&#x91CF;&#xFF09;&#x5224;&#x65AD;
+</code></pre>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;:</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-1110afa3c2b294a7058f3407ce53ec28_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  rules:
+    - if: &apos;$DEPLOY_ENV == &quot;dev&quot;&apos;
+      when: manual
+    - when: on_success
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV2: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+  parallel: 5
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;love you&quot;
+    - sleep 10
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+  needs:
+    - test
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x9A8C;&#x8BC1;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-e27dde3680299c438e22925f3ee18330_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<p>&#x6D4B;&#x8BD5;</p>
+<pre><code class="lang-text">&#x6839;&#x636E;&#x6587;&#x4EF6;&#x5224;&#x65AD;: changes
+</code></pre>
+<ul>
+<li>&#x5148;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;dockerfile&#x6587;&#x4EF6;&#x5E76;&#x63D0;&#x4EA4;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-a544ea6d61238085eda4cfa20d05ab3b_720w.webp" alt="img"></p>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-cb2c4920ab1f6e0fb379db8430ee2037_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  rules:
+    - if: &apos;$DEPLOY_ENV == &quot;dev&quot;&apos;
+      when: manual
+    - when: on_success
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV2: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+  parallel: 5
+  rules:
+    - changes:
+      - Dockerfile
+      when: manual
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;love you&quot;
+    - sleep 10
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+  needs:
+    - test
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<p>&#x63D0;&#x4EA4;&#xFF0C;&#x7136;&#x540E;&#x6B64;&#x65F6;&#x518D;&#x4FEE;&#x6539;&#x4E0B;&#x521A;&#x624D;&#x90A3;&#x4E2A;Dockerfile&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x63D0;&#x4EA4;&#xFF0C;&#x89C2;&#x5BDF;&#x4E0B;&#x6548;&#x679C;&#xFF1A;</p>
+<ul>
+<li>&#x8FD9;&#x91CC;&#x51FA;&#x9519;&#x4E86;&#xFF1A;&#x3002;&#x3002;&#x3002;</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-1b4beceb842e960e65328807f00823be_720w.webp" alt="img"></p>
+<p><img src="data:image/svg+xml;utf8,&lt;svg xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;1919&apos; height=&apos;710&apos;&gt;&lt;/svg" alt="img"></p>
+<p><img src="data:image/svg+xml;utf8,&lt;svg xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;1660&apos; height=&apos;699&apos;&gt;&lt;/svg" alt="img"></p>
+<p><img src="data:image/svg+xml;utf8,&lt;svg xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;1404&apos; height=&apos;837&apos;&gt;&lt;/svg" alt="img"></p>
+<p><img src="data:image/svg+xml;utf8,&lt;svg xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;1695&apos; height=&apos;836&apos;&gt;&lt;/svg" alt="img"></p>
+<p>&#x5E94;&#x8BE5;&#x662F;&#x548C;gitlab-runner&#x4E0A;&#x7684;git&#x7248;&#x672C;&#x6709;&#x5173;&#x7CFB;&#x4E86;&#xFF1A;&#x3002;&#x3002;&#x3002;</p>
+<p><img src="data:image/svg+xml;utf8,&lt;svg xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;1113&apos; height=&apos;204&apos;&gt;&lt;/svg" alt="img"></p>
+<p>&#x6E90;&#x7801;&#x5347;&#x7EA7;gi&#x5230;2&#x7248;&#x672C;&#x4EE5;&#x4E0A;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF1A;</p>
+<p><img src="data:image/svg+xml;utf8,&lt;svg xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;1920&apos; height=&apos;1021&apos;&gt;&lt;/svg" alt="img"></p>
+<p><a href="https://link.zhihu.com/?target=https%3A//blog.csdn.net/weixin_39246554/article/details/124628706%3Fspm%3D1001.2014.3001.5502" target="_blank">https://blog.csdn.net/weixin_39246554/article/details/124628706?spm=1001.2014.3001.5502</a></p>
+<p><img src="data:image/svg+xml;utf8,&lt;svg xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;1919&apos; height=&apos;824&apos;&gt;&lt;/svg" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-3dc9e0f5001741c10529577b8a9c84c4_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-073d4aab7b0f2ba9c5524cb304806520_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-969f89fc72a139ccca6b8d2c3e1d0268_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;</p>
+<p><img src="https://pic3.zhimg.com/80/v2-f9b1b7a8a00bbfa3f3c6747afe03e46a_720w.webp" alt="img"></p>
+<ul>
+<li>&#x5148;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;demo&#x76EE;&#x5F55;&#xFF0C;&#x5728;&#x5E95;&#x4E0B;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;Dockerfile&#x5E76;&#x63D0;&#x4EA4;</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-84261241e6fc4f3f4199ab7d9f9f7908_720w.webp" alt="img"></p>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-89e6af54e0c9c44f4717272b21705005_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  rules:
+    - if: &apos;$DEPLOY_ENV == &quot;dev&quot;&apos;
+      when: manual
+    - when: on_success
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV2: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+  parallel: 5
+  rules:
+    - changes:
+      - /demo/**
+      when: manual
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;love you&quot;
+    - sleep 10
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+  needs:
+    - test
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x9A8C;&#x8BC1;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-a02f3775bd975354856b437e04e439b7_720w.webp" alt="img"></p>
+<p>&#x53D1;&#x73B0;build&#x9636;&#x6BB5;&#x4E0D;&#x89C1;&#x4E86;&#xFF1A;&#x3002;&#x3002;&#xFF0C;&#x8FD9;&#x91CC;&#x518D;&#x6B21;&#x8FD0;&#x884C;&#x4E0B;&#x6D41;&#x6C34;&#x7EBF;&#x770B;&#x770B;</p>
+<p><img src="https://pic4.zhimg.com/80/v2-dae8bef908081b151120b339c8e7fdbf_720w.webp" alt="img"></p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x6B64;&#x65F6;&#x5C31;&#x6709;&#x6548;&#x679C;&#x4E86;&#xFF1A;</p>
+<p><img src="https://pic3.zhimg.com/80/v2-4ede401b420d9b22227daf7a01660756_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-45d54a9a3e2a3ddd665e64fbf11c668c_720w.webp" alt="img"></p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x4E5F;&#x662F;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x7684;&#x3002;</p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="5pipeline&#x8FD0;&#x884C;&#x63A7;&#x5236;">5.Pipeline&#x8FD0;&#x884C;&#x63A7;&#x5236;</h3>
+<h3 id="1workflow-&#x63A7;&#x5236;&#x6D41;&#x6C34;&#x7EBF;">1.workflow &#x63A7;&#x5236;&#x6D41;&#x6C34;&#x7EBF;</h3>
+<p>&#x6E90;&#x6587;&#x6863;</p>
+<p>&#x63A7;&#x5236;&#x7BA1;&#x9053;&#x662F;&#x5426;&#x521B;&#x5EFA;&#x548C;&#x8FD0;&#x884C;&#x3002;&#x6839;&#x636E;&#x6761;&#x4EF6;&#xFF08;&#x53D8;&#x91CF;&#xFF09;&#x5224;&#x65AD;&#xFF1A; IF</p>
+<ul>
+<li><p>if &#x5B9A;&#x4E49;&#x53D8;&#x91CF;&#x6761;&#x4EF6;;</p>
+</li>
+<li><p>variables &#x91CD;&#x65B0;&#x5B9A;&#x4E49;&#x53D8;&#x91CF;&#x7684;&#x503C;&#xFF1B;</p>
+</li>
+<li><p>when</p>
+</li>
+<li><ul>
+<li>always</li>
+</ul>
+</li>
+<li><p>never</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>if: &apos;$CI_PIPELINE_SOURCE == &quot;merge_request_event&quot;&apos;</th>
+<th>&#x5408;&#x5E76;&#x8BF7;&#x6C42;&#x65F6;&#x8FD0;&#x884C;&#x6D41;&#x6C34;&#x7EBF;&#xFF1B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>if: &apos;$CI_PIPELINE_SOURCE == &quot;push&quot;&apos;</td>
+<td>&#x63D0;&#x4EA4;&#x4EE3;&#x7801;&#x8FD0;&#x884C;&#x6D41;&#x6C34;&#x7EBF;&#xFF1B;</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-text">workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == &quot;push&quot;
+      when: never
+</code></pre>
+<p>&#x81EA;&#x5DF1;&#x6D4B;&#x8BD5;&#x8FC7;&#x7A0B;</p>
+<ul>
+<li>&#x7F16;&#x5199;&#x4EE3;&#x7801;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-ba91912f6feb9e0c911de66a9e7286d3_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == &quot;push&quot;
+      when: never
+    - when: always
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  rules:
+    - if: &apos;$DEPLOY_ENV == &quot;dev&quot;&apos;
+      when: manual
+    - when: on_success
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV2: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+  parallel: 5
+  rules:
+    - changes:
+      - /demo/**
+      when: manual
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;love you&quot;
+    - sleep 10
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+  needs:
+    - test
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x89C2;&#x5BDF;&#x6548;&#x679C;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-f9c8d8781a75eae354be2a83346885b8_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="2git-&#x9009;&#x9879;&#x8DF3;&#x8FC7;&#x6D41;&#x6C34;&#x7EBF;">2.Git &#x9009;&#x9879;&#x8DF3;&#x8FC7;&#x6D41;&#x6C34;&#x7EBF;</h3>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x4FE1;&#x606F;&#x4E2D;&#x6DFB;&#x52A0;&#x5173;&#x952E;&#x5B57; [ci skip]
+&#x6216;&#x8005; [skip ci]
+&#xFF1B;</li>
+<li>Git 2.10 &#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4EE5;&#x4E0B;&#x914D;&#x7F6E;&#x8BBE;&#x7F6E;CI/CD&#xFF1B;</li>
+</ul>
+<pre><code class="lang-text">## &#x8DF3;&#x8FC7;
+git push -o ci.skip
+
+## &#x4F20;&#x9012;&#x53D8;&#x91CF;
+git push -o ci.variable=&quot;MAX_RETRIES=10&quot; -o ci.variable=&quot;MAX_TIME=600&quot;
+</code></pre>
+<h3 id="3trigger-&#x89E6;&#x53D1;&#x4E0B;&#x6E38;&#x7BA1;&#x9053;">3.trigger &#x89E6;&#x53D1;&#x4E0B;&#x6E38;&#x7BA1;&#x9053;</h3>
+<p>&#x6E90;&#x6587;&#x6863;</p>
+<ul>
+<li>&#x89E6;&#x53D1;&#x9879;&#x76EE;&#x7BA1;&#x9053;</li>
+<li>&#x89E6;&#x53D1;&#x5B50;&#x7BA1;&#x9053;</li>
+</ul>
+<p>strategy&#xFF1A; &#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4E00;&#x65E6;&#x521B;&#x5EFA;&#x4E86;&#x4E0B;&#x6E38;&#x7BA1;&#x9053;&#xFF0C;trigger&#x4F5C;&#x4E1A;&#x5C31;&#x4F1A;&#x4EE5;success&#x72B6;&#x6001;&#x5B8C;&#x6210;&#x3002;&#x8981;&#x5F3A;&#x5236;&#x7B49;&#x5F85;&#x4E0B;&#x6E38;&#x7BA1;&#x9053;&#x5B8C;&#x6210;&#xFF0C;&#x4F7F;&#x7528;</p>
+<pre><code class="lang-text">strategy: depend
+</code></pre>
+<p>&#x3002;</p>
+<p>&#x89E6;&#x53D1;&#x9879;&#x76EE;&#x7BA1;&#x9053;&#xFF1A;</p>
+<pre><code class="lang-text">triggers:
+  stage: deploy
+  trigger:
+    project: devops/devops-maven-service
+    branch: main
+    strategy: depend    ## &#x72B6;&#x6001;&#x540C;&#x6B65;
+</code></pre>
+<p>&#x89E6;&#x53D1;&#x5B50;&#x7BA1;&#x9053;&#xFF1A;</p>
+<pre><code class="lang-text">#&#x8FD9;&#x79CD;&#x573A;&#x666F;&#x9002;&#x5408;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x91CC;&#x6709;&#x591A;&#x4E2A;&#x5B50;&#x6A21;&#x5757;
+triggers:
+  stage: deploy
+  trigger:
+    include:
+      - local: /ci/java-pipeline.yml
+    strategy: depend   ## &#x72B6;&#x6001;&#x540C;&#x6B65;
+
+## &#x4E0D;&#x540C;&#x9879;&#x76EE;
+triggers:
+  stage: deploy
+  trigger:
+    include:
+      - project: &apos;devops/my-pipeline-lib&apos;
+        ref: &apos;main&apos;
+        file: &apos;/cd/java-pipeline.yml&apos;
+</code></pre>
+<p>&#x5B9E;&#x8DF5;&#xFF1A;</p>
+<pre><code class="lang-text">&#x89E6;&#x53D1;&#x9879;&#x76EE;&#x7BA1;&#x9053;
+</code></pre>
+<ul>
+<li>&#x5148;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;Project&#xFF0C;&#x91CC;&#x9762;&#x521B;&#x5EFA;.gitlab-ci.yml
+&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x5199;&#x5165;&#x4E4B;&#x524D;&#x7684;&#x7B80;&#x77ED;&#x4EE3;&#x7801;</li>
+</ul>
+<p>devops4-app-ui</p>
+<p><img src="https://pic3.zhimg.com/80/v2-c591e52c517ba7cadc91e26b06d0a642_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-032fa80dbad299ce65075dce8f9fe5fa_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+    - sleep 10
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 5
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<p>&#x63D0;&#x4EA4;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x6B63;&#x5728;&#x8FD0;&#x884C;&#x4E86;&#xFF1A;</p>
+<p><img src="https://pic3.zhimg.com/80/v2-809ff97f011a31c3feda02e69f596566_720w.webp" alt="img"></p>
+<ul>
+<li>&#x6765;&#x5230;devops4/devops4-app-service
+&#x9879;&#x76EE;&#x7684;.gitlab-ci.yml
+&#x91CC;&#x7F16;&#x5199;&#x4EE3;&#x7801;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-d2b04b1fb0dbdbf30481a2941fe0c8a9_720w.webp" alt="img"></p>
+<pre><code class="lang-text"># workflow: #test workflow.test1
+#   rules:
+#     - if: &apos;$CI_PIPELINE_SOURCE == &quot;push&quot;&apos;
+#       when: never
+#     - when: always
+
+
+stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  rules:
+    - if: &apos;$DEPLOY_ENV == &quot;dev&quot;&apos;
+      when: manual
+    - when: on_success
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV2: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+
+build:
+  stage: build
+  trigger:
+    project: devops4/devops4-app-ui
+    branch: main
+    strategy: depend #&#x72B6;&#x6001;&#x540C;&#x6B65;
+
+
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+  parallel: 5
+  rules:
+    - changes:
+      - /demo/**
+      when: manual
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;love you&quot;
+    - sleep 10
+  allow_failure: true
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+  needs:
+    - test
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x540E;&#xFF0C;&#x6CE8;&#x610F;&#x89C2;&#x5BDF;&#x73B0;&#x8C61;</li>
+</ul>
+<p>&#x6B64;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x5230;devops4/devops4-app-ui&#x9879;&#x76EE;&#x4E0B;&#x4E00;&#x6761;&#x7BA1;&#x9053;&#x5728;&#x8FD0;&#x884C;&#x4E86;&#xFF0C;&#x7B26;&#x5408;&#x9884;&#x671F;&#x6548;&#x679C;&#xFF01;</p>
+<p>&#x8FD9;&#x91CC;&#x4E0D;&#x9700;&#x8981;&#x8FDB;&#x5165;&#x5230;&#x8FD9;&#x4E2A;&#x76EE;&#x5F55;&#xFF0C;&#x76F4;&#x63A5;&#x70B9;&#x51FB;&#x8FD9;&#x4E2A;build&#x9636;&#x6BB5;&#x5C31;&#x80FD;&#x8C03;&#x5230;&#x89E6;&#x53D1;&#x9879;&#x76EE;&#x7684;&#x4F4D;&#x7F6E;&#x4E86;&#xFF1A;</p>
+<p><img src="https://pic4.zhimg.com/80/v2-2290b6aecabc2df65f7d0ae06443eac3_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<p>&#x5B9E;&#x8DF5;&#xFF1A;</p>
+<pre><code class="lang-text">&#x4EC5;&#x80FD;&#x901A;&#x8FC7;&#x5176;&#x4ED6;Pipeline&#x89E6;&#x53D1;
+</code></pre>
+<p>-2022.5.6</p>
+<p><img src="https://pic1.zhimg.com/80/v2-2c9f94638af95e52176b50c0dcc8a6f0_720w.webp" alt="img"></p>
+<ul>
+<li>&#x9700;&#x6C42;&#xFF1A;&#x4EC5;&#x80FD;&#x901A;&#x8FC7;&#x5176;&#x4ED6;Pipeline&#x89E6;&#x53D1;</li>
+<li>&#x5148;&#x6D4B;&#x8BD5;&#x4E0B;&#xFF0C;&#x6BCF;&#x6B21;&#x64CD;&#x4F5C;&#x7684;CI_PIPELINE_SOURCE
+&#x5C5E;&#x6027;&#x503C;&#x662F;&#x4EC0;&#x4E48;</li>
+</ul>
+<p>&#x6765;&#x5230;</p>
+<pre><code class="lang-text">devops4-app-ui
+</code></pre>
+<p>&#x5DE5;&#x7A0B;&#x4E0B;&#xFF0C;&#x7F16;&#x8F91;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><img src="https://pic1.zhimg.com/80/v2-025ac311d9a55b18630f300e14a71484_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+    - echo $CI_PIPELINE_SOURCE    
+    - sleep 3
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<p>&#x6B64;&#x65F6;&#xFF0C;&#x76F4;&#x63A5;&#x5728;&#x81EA;&#x5DF1;Editor&#x8FDB;&#x884C;&#x63D0;&#x4EA4;&#xFF0C;&#x5E76;&#x89C2;&#x5BDF;&#x73B0;&#x8C61;&#xFF1A;</p>
+<p><img src="https://pic1.zhimg.com/80/v2-e09a4ffd77c7bd9b6d8ea3c0de0b42a8_720w.webp" alt="img"></p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;</p>
+<pre><code class="lang-text">$CI_PIPELINE_SOURCE
+</code></pre>
+<p>&#x503C;&#x4E3A;</p>
+<pre><code class="lang-text">push
+</code></pre>
+<p>&#x3002;</p>
+<p>&#x6B64;&#x65F6;&#xFF0C;&#x6765;&#x5230;</p>
+<pre><code class="lang-text">devops4-app-serice
+</code></pre>
+<p>&#x5DE5;&#x7A0B;&#x4E0B;&#xFF0C;&#x8FDB;&#x884C;&#x63D0;&#x4EA4;&#xFF0C;&#x5E76;&#x518D;&#x6B21;&#x89C2;&#x5BDF;</p>
+<pre><code class="lang-text">devops4-app-ui
+</code></pre>
+<p>&#x91CC;&#x53D8;&#x91CF;&#x7684;&#x503C;&#xFF1A;</p>
+<pre><code class="lang-text"># workflow: #test workflow.test1
+#   rules:
+#     - if: &apos;$CI_PIPELINE_SOURCE == &quot;push&quot;&apos;
+#       when: never
+#     - when: always
+
+
+stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  rules:
+    - if: &apos;$DEPLOY_ENV == &quot;dev&quot;&apos;
+      when: manual
+    - when: on_success
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV2: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+
+build:
+  stage: build
+  trigger:
+    project: devops4/devops4-app-ui
+    branch: main
+    strategy: depend #&#x72B6;&#x6001;&#x540C;&#x6B65;
+
+
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+  parallel: 5
+  rules:
+    - changes:
+      - /demo/**
+      when: manual
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;love you&quot;
+    - sleep 10
+  allow_failure: true
+
+
+test1:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+  when: delayed
+  start_in: &apos;5&apos;
+  needs:
+    - test
+
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+  when: manual
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x662F;</p>
+<pre><code class="lang-text">pipeline
+</code></pre>
+<p>&#xFF1A;</p>
+<p><img src="https://pic2.zhimg.com/80/v2-7ba82886f3e5e7d649fa0ab7812405bd_720w.webp" alt="img"></p>
+<ul>
+<li>&#x6B64;&#x65F6;&#xFF0C;&#x518D;&#x6765;&#x7F16;&#x8F91;devops4-app-ui
+&#x7684;&#x4EE3;&#x7801;</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-f357beb2f3a7388e765d617445a70c87_720w.webp" alt="img"></p>
+<pre><code class="lang-text">workflow:
+  rules:
+    - if: &apos;$CI_PIPELINE_SOURCE == &quot;pipeline&quot;&apos;
+      when: always
+    - when: never
+
+stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+    - echo $CI_PIPELINE_SOURCE    
+    - sleep 3
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<ul>
+<li>&#x5199;&#x5B8C;&#x4EE3;&#x7801;&#x540E;&#xFF0C;&#x76F4;&#x63A5;&#x63D0;&#x4EA4;&#xFF0C;&#x89C2;&#x5BDF;&#x6548;&#x679C;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-0dcda0473cc9995dc785d1734cf8d991_720w.webp" alt="img"></p>
+<p>&#x53D1;&#x73B0;&#xFF0C;&#x63D0;&#x4EA4;&#x5E76;&#x4E0D;&#x80FD;&#x8FD0;&#x884C;&#x8FD9;&#x6761;&#x6D41;&#x6C34;&#x7EBF;&#x3002;</p>
+<ul>
+<li>&#x6211;&#x4EEC;&#x518D;&#x8FD0;&#x884C;&#x4E00;&#x6B21;devops4-app-serice
+&#x6D41;&#x6C34;&#x7EBF;&#xFF0C;&#x53D1;&#x73B0;&#x5C31;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x89E6;&#x53D1;devops4-app-ui
+&#x7BA1;&#x9053;&#x4E86;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-76852f3e9e94e047f599789735dce55b_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-0cd2145e180954bee276321b9d4d83b7_720w.webp" alt="img"></p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<p>&#x5B9E;&#x8DF5;&#xFF1A;</p>
+<pre><code class="lang-text">&#x89E6;&#x53D1;&#x5B50;&#x7BA1;&#x9053;
+</code></pre>
+<p>-2022.5.6</p>
+<ul>
+<li>&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#xFF1A;devops4-monrepo-service</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-79e5e69e77dc2366ce8842ece880d3dd_720w.webp" alt="img"></p>
+<ul>
+<li>&#x5728;&#x9879;&#x76EE;&#x4E0B;&#x5206;&#x522B;&#x521B;&#x5EFA;&#x5982;&#x4E0B;&#x6587;&#x4EF6;</li>
+</ul>
+<pre><code class="lang-text">devops4-monrepo-service&#x5DE5;&#x7A0B;
+    module1/ci.yml
+    module2/ci.yml
+    .gitlab-ci.yml
+</code></pre>
+<p>ci.yml&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x4E3A;&#x7B80;&#x5355;&#x7684;&#x4E00;&#x4E2A;&#x6D41;&#x6C34;&#x7EBF;&#xFF1A;</p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+    - sleep 3
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+</code></pre>
+<pre><code class="lang-text">.gitlab-ci.yml
+</code></pre>
+<p>&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>&#x6CE8;&#x610F;&#x4E0B;&#xFF1A;&#x8FD9;&#x91CC;&#x7684;job&#x4E0B;&#x662F;&#x6CA1;&#x6709;tags&#x7684;&#xFF01;</p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+
+build-module1:
+  stage: build
+  trigger:
+    include:
+      - local: module1/ci.yml
+    strategy: depend
+
+build-module2:
+  stage: build
+  trigger:
+    include:
+      - local: module2/ci.yml
+    strategy: depend
+</code></pre>
+<p>&#x7136;&#x540E;&#x63D0;&#x4EA4;&#x89E6;&#x53D1;&#x6784;&#x5EFA;&#xFF0C;&#x67E5;&#x770B;&#x6548;&#x679C;&#xFF1A;</p>
+<p>&#x4F1A;&#x770B;&#x5230;&#x540C;&#x65F6;&#x89E6;&#x53D1;</p>
+<pre><code class="lang-text">build-module1
+</code></pre>
+<p>&#x548C;</p>
+<pre><code class="lang-text">build-module2
+</code></pre>
+<p>&#x4F5C;&#x4E1A;&#x7684;&#x8FD0;&#x884C;&#xFF0C;&#x53CA;Downstream&#x7684;&#x8FD0;&#x884C;&#xFF1A;</p>
+<p><img src="https://pic2.zhimg.com/80/v2-b906a49354a247212a55e001ec88c621_720w.webp" alt="img"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-a874687f345f21530ba377b4cc11a80a_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-5f692590404afbdb2ff267d7d8ddd74d_720w.webp" alt="img"></p>
+<ul>
+<li>&#x6B64;&#x65F6;&#x66F4;&#x6539;.gitlab-ci.yml
+&#x5185;&#x5BB9;&#xFF0C;&#x6DFB;&#x52A0;rules&#xFF0C;&#x5982;&#x679C;&#x8BE5;&#x5DE5;&#x7A0B;&#x4E0B;&#x7684;&#x90A3;&#x4E2A;module&#x4E0B;&#x7684;&#x6587;&#x4EF6;&#x53D1;&#x751F;&#x4E86;&#x6539;&#x53D8;&#xFF0C;&#x5C31;&#x53EA;&#x4F1A;&#x89E6;&#x53D1;&#x81EA;&#x5DF1;&#x7684;module&#x8FD0;&#x884C;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-67a9e59a71e098ce3a8a30a547fcd2da_720w.webp" alt="img"></p>
+<pre><code class="lang-text">stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+
+build-module1:
+  stage: build
+  trigger:
+    include:
+      - local: module1/ci.yml
+    strategy: depend
+  rules:
+    - changes:
+        - module1/*
+      when: always
+
+build-module2:
+  stage: build
+  trigger:
+    include:
+      - local: module2/ci.yml
+    strategy: depend
+  rules:
+    - changes:
+        - module2/*
+      when: always
+</code></pre>
+<p>&#x4FDD;&#x5B58;&#x63D0;&#x4EA4;&#x4EE3;&#x7801;&#x540E;&#xFF0C;&#x53D1;&#x73B0;&#x5E76;&#x4E0D;&#x4F1A;&#x89E6;&#x53D1;&#x6D41;&#x6C34;&#x7EBF;&#x7684;&#x8FD0;&#x884C;&#xFF01;</p>
+<ul>
+<li>&#x73B0;&#x5728;&#xFF0C;&#x6211;&#x4EEC;&#x5148;&#x540E;&#x4FEE;&#x6539;&#x4E0B;module1/ci.yml&#x5185;&#x5BB9;&#x548C;module2/ci.yml&#x5185;&#x5BB9;&#xFF0C;&#x63D0;&#x4EA4;&#x5E76;&#x89C2;&#x5BDF;&#xFF0C;&#x662F;&#x5426;&#x53EA;&#x4F1A;&#x89E6;&#x53D1;&#x81EA;&#x5DF1;&#x6A21;&#x5757;&#x7684;&#x6D41;&#x6C34;&#x7EBF;&#xFF1F;</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-ff1f55c7f1830eaaddc6b856c5db1bb0_720w.webp" alt="img"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-31ddabd620d139d60dfd76fd30128bad_720w.webp" alt="img"></p>
+<p>&#x7B26;&#x5408;&#x9884;&#x671F;&#x3002;</p>
+<p>&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="4&#x3001;pipeline&#x73AF;&#x5883;&#x53D8;&#x91CF;">4&#x3001;Pipeline&#x73AF;&#x5883;&#x53D8;&#x91CF;</h3>
+<p>&#x9884;&#x5B9A;&#x4E49;&#x53D8;&#x91CF;&#x4FE1;&#x606F;&#xFF1A;<a href="https://link.zhihu.com/?target=https%3A//docs.gitlab.com/ee/ci/variables/predefined_variables.html" target="_blank">https://docs.gitlab.com/ee/ci/variables/predefined_variables.html</a></p>
+<p>&#x4EE3;&#x7801;&#x7C7B;</p>
+<ul>
+<li>CI_COMMIT_AUTHOR &#x63D0;&#x4EA4;&#x4EBA;</li>
+<li>CI_COMMIT_BRANCH &#x63D0;&#x4EA4;&#x5206;&#x652F;</li>
+<li>CI_COMMIT_MESSAGE</li>
+<li>CI_COMMIT_REF_NAME</li>
+<li>CI_COMMIT_SHORT_SHA</li>
+</ul>
+<p>&#x4F5C;&#x4E1A;&#x7C7B;&#xFF1A;</p>
+<ul>
+<li>CI_JOB_ID</li>
+<li>CI_JOB_NAME</li>
+<li>CI_JOB_STAGE</li>
+<li>CI_JOB_URL</li>
+</ul>
+<p>&#x6D41;&#x6C34;&#x7EBF;&#x7C7B;&#xFF1A;</p>
+<ul>
+<li>CI_PIPELINE_ID</li>
+<li>CI_PIPELINE_SOURCE</li>
+<li>CI_PIPELINE_TRIGGERED</li>
+<li>CI_PIPELINE_URL</li>
+</ul>
+<h3 id="5&#x3001;pipelinetemplates&#x5B9E;&#x8DF5;">5&#x3001;PipelineTemplates&#x5B9E;&#x8DF5;</h3>
+<p><a href="https://link.zhihu.com/?target=https%3A//gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates" target="_blank">https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates</a></p>
+<h3 id="1extends">1.extends</h3>
+<p>xtends&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x591A;&#x4E2A;&#x6A21;&#x677F;&#xFF0C; &#x76F8;&#x540C;&#x7684;&#x53C2;&#x6570;&#x6700;&#x540E;&#x6A21;&#x677F;&#x4F1A;&#x8986;&#x76D6;&#x524D;&#x9762;&#x7684;&#x3002;&#x4F8B;&#x5982;&#xFF1A; &#x4E0B;&#x9762;&#x4E24;&#x4E2A;&#x6A21;&#x677F;&#x4E2D;&#xFF0C;&#x7EE7;&#x627F;&#x5173;&#x7CFB;&#x662F;&#xFF1A;</p>
+<ul>
+<li>&#x7EE7;&#x627F; .test1 &#xFF08;&#x6B64;&#x65F6;rspec&#x7684;&#x53D8;&#x91CF;NAME
+&#x7684;&#x503C;&#x4E3A;gitlab&#xFF09;</li>
+<li>&#x7EE7;&#x627F; .test2 &#xFF08;&#x6B64;&#x65F6;rspec&#x7684;&#x53D8;&#x91CF;NAME
+&#x7684;&#x503C;&#x4E3A;gitlabCI , &#x8986;&#x76D6;&#x4E86;.test1&#x4E2D;&#x7684;&#x503C;&#xFF09;</li>
+</ul>
+<pre><code class="lang-text">.test1: #&#x6A21;&#x677F;&#xFF1A;&#x5B83;&#x4E0D;&#x4F1A;&#x5B9E;&#x9645;&#x5730;&#x53BB;&#x8FD0;&#x884C;&#xFF01;
+  variables:
+    NAME: &quot;gitlab&quot;
+  tags:
+    - build
+  stage: test
+  rules:
+    - if: $CI_COMMIT_BRANCH == &quot;main&quot;
+  script: echo &quot;mvn test&quot;
+
+.test2:
+  variables:
+    NAME: &quot;gitlabCI&quot;
+  tags:
+    - build01
+  stage: test
+
+rspec:
+  extends: 
+    - .test1
+    - .test2
+  script: echo &quot; DevOps&quot;
+
+
+
+
+###### &#x7ED3;&#x679C;
+
+rspec:
+  variables:
+    NAME: &quot;gitlabCI&quot;
+  tags:
+    - build
+  stage: test
+  rules:
+    - if: $CI_COMMIT_BRANCH == &quot;main&quot;
+  script: echo &quot; DevOps&quot;
+</code></pre>
+<p>&#x5B9E;&#x8DF5;&#xFF1A;</p>
+<pre><code class="lang-text">PipelineTemplate&#x4E4B;extends
+</code></pre>
+<p>-2022.5.6</p>
+<ul>
+<li>&#x672C;&#x6B21;&#x5728;devops4-app-ui
+&#x5DE5;&#x7A0B;&#x91CC;&#x6D4B;&#x8BD5;</li>
+</ul>
+<p>&#x5728;&#x6587;&#x4EF6;&#x6700;&#x540E;&#x6DFB;&#x52A0;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><img src="https://pic4.zhimg.com/80/v2-f2e82a47bfe6e2d4ed01456b0b1bceb3_720w.webp" alt="img"></p>
+<pre><code class="lang-text"># workflow:
+#   rules:
+#     - if: &apos;$CI_PIPELINE_SOURCE == &quot;pipeline&quot;&apos;
+#       when: always
+#     - when: never
+
+stages: #&#x5BF9;stages&#x7684;&#x7F16;&#x6392;
+  - build
+  - test
+  - deploy
+
+variables:
+  DEPLOY_ENV: &quot;dev&quot;
+  RUNNER_TAG: &quot;maven&quot;
+
+deploy_job:
+  stage: deploy
+  tags:
+    - ${RUNNER_TAG}
+  variables:
+    DEPLOY_ENV: &quot;test&quot;
+  script:
+    - echo  ${DEPLOY_ENV}
+
+ciinit:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .pre
+  script:
+    - echo &quot;Pipeline init first job&quot;
+
+ciend:
+  tags:
+    - ${RUNNER_TAG}
+  stage: .post
+  script:
+    - echo &quot;Pipeline end  job&quot;
+
+before_script:
+  - echo &quot;Before script section&quot;
+  - echo &quot;For example you might run an update here or install a build dependency&quot;
+  - echo &quot;Or perhaps you might print out some debugging details&quot;
+
+after_script:
+  - echo &quot;After script section&quot;
+  - echo &quot;For example you might do some cleanup here&quot;
+
+build1:
+  tags:
+    - ${RUNNER_TAG}
+  stage: build
+  script:
+    - echo &quot;Do your build here&quot;
+    - echo $CI_PIPELINE_SOURCE    
+    - sleep 3
+
+test:
+  tags:
+    - ${RUNNER_TAG} 
+  stage: test
+  script:
+    - echo &quot;Do a test here&quot;
+    - echo &quot;For example run a test suite&quot;
+    - sleep 3
+
+
+
+deploy:
+  tags:
+    - ${RUNNER_TAG}
+  stage: deploy
+  script:
+    - echo &quot;Do your deploy here&quot;
+
+
+.test1:
+  variables:
+    NAME: &quot;gitlab&quot;
+  tags:
+    - build01
+  stage: test
+  rules:
+    - if: $CI_COMMIT_BRANCH == &quot;main&quot;
+  script: echo &quot;mvn test&quot;
+
+.test2:
+  variables:
+    NAME: &quot;gitlabCI&quot;
+  tags:
+    - build
+  stage: test
+
+rspec:
+  extends: 
+    - .test1
+    - .test2
+  script: echo &quot;$NAME&quot;
+</code></pre>
+<ul>
+<li>&#x63D0;&#x4EA4;&#x5E76;&#x89C2;&#x5BDF;&#x73B0;&#x8C61;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-ba9b68d86ad23d25af970bd53b12fcb4_720w.webp" alt="img"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-333a957319edc76814ba89d4163aa233_720w.webp" alt="img"></p>
+<p>&#x7B26;&#x5408;</p>
+<pre><code class="lang-text">&#x76F8;&#x540C;&#x7684;&#x53C2;&#x6570;&#x6700;&#x540E;&#x6A21;&#x677F;&#x4F1A;&#x8986;&#x76D6;&#x524D;&#x9762;
+</code></pre>
+<p>&#x6982;&#x5FF5;&#xFF0C;&#x6D4B;&#x8BD5;&#x7ED3;&#x675F;&#x3002;</p>
+<h3 id="2include">2.include</h3>
+<p>include&#x7528;&#x4E8E;&#x5728;CI/CD &#x914D;&#x7F6E;&#x4E2D;&#x5F15;&#x5165;&#x5916;&#x90E8; YAML &#x6587;&#x4EF6;&#x3002;&#x53EF;&#x4EE5;&#x5C06;&#x4E00;&#x4E2A;&#x957F;</p>
+<pre><code class="lang-text">.gitlab-ci.yml
+</code></pre>
+<p>&#x6587;&#x4EF6;&#x5206;&#x89E3;&#x4E3A;&#x591A;&#x4E2A;&#x6587;&#x4EF6;&#x4EE5;&#x63D0;&#x9AD8;&#x53EF;&#x8BFB;&#x6027;&#xFF0C;&#x6216;&#x51CF;&#x5C11;&#x540C;&#x4E00;&#x914D;&#x7F6E;&#x5728;&#x591A;&#x4E2A;&#x5730;&#x65B9;&#x7684;&#x91CD;&#x590D;&#x3002;</p>
+<ul>
+<li>local &#x5BFC;&#x5165;&#x5F53;&#x524D;&#x4ED3;&#x5E93;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#xFF1B;</li>
+<li>file &#x5BFC;&#x5165;&#x5F53;&#x524D;&#x9879;&#x76EE;&#x6216;&#x5176;&#x4ED6;&#x9879;&#x76EE;&#x5E93;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#xFF1B;</li>
+<li>remote &#x5BFC;&#x5165;&#x4E00;&#x4E2A;&#x8FDC;&#x7A0B;&#x7684;&#x6587;&#x4EF6;&#xFF08;&#x4F8B;&#x5982;&#xFF1A;<a href="https://link.zhihu.com/?target=http%3A//xxx.yaml" target="_blank">http://xxx.yaml</a>&#xFF09;</li>
+<li>template &#x5BFC;&#x5165;GitLab&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#xFF1B;</li>
+</ul>
+<pre><code class="lang-text">## &#x672C;&#x5730;&#x4ED3;&#x5E93;&#x6587;&#x4EF6;
+include:
+  - local: &apos;/templates/.gitlab-ci-java.yml&apos;
+
+## &#x5176;&#x4ED6;&#x4ED3;&#x5E93;&#x6587;&#x4EF6;
+include:
+  - project: &apos;devops/my-project&apos;
+    ref: main
+    file: 
+      - &apos;/templates/.gitlab-ci-java.yml&apos;
+      - &apos;/templates/.tests.yml&apos;
+
+## &#x8FDC;&#x7A0B;&#x6587;&#x4EF6;
+include:
+  - remote: &apos;https://192.168.1.200//-/raw/main/.gitlab-ci.yml&apos;
+</code></pre>
+<p><strong>&#x7EFC;&#x5408;&#x5B9E;&#x4F8B;&#xFF1A;</strong></p>
+<p>&#x5C06;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#xFF0C;&#x653E;&#x5230;&#x5355;&#x72EC;&#x7684;&#x4E00;&#x4E2A;&#x4ED3;&#x5E93;&#x4E2D;&#xFF1B;</p>
+<p><img src="https://pic2.zhimg.com/80/v2-a6230924a65a40abc3f3867aff7d7be9_720w.webp" alt="img"></p>
+<p>build.yml</p>
+<pre><code class="lang-text">## build&#x6A21;&#x677F;
+.build:
+  tags:
+    - build
+  stage: build
+  variables:
+    BUILD_TOOLS: &quot;maven&quot;
+    SKIP_TEST: &quot;true&quot;
+  script: 
+    - if [ &quot;${SKIP_TEST}&quot; == &quot;true&quot; ];then echo &quot;mvn clean package -DskipTests&quot;;fi 
+  rules:
+    - if: $CI_PIPELINE_SOURCE == &quot;push&quot;
+      when: never
+
+.mavenBuild:
+  tags:
+    - build
+  stage: build
+  variables:
+    BUILD_SHELL: &quot;mvn clean package&quot;
+  script:
+    - echo &quot;${BUILD_SHELL}&quot;
+</code></pre>
+<p>gitlab-ci.yml</p>
+<pre><code class="lang-text">## &#x5F15;&#x5165;&#x9879;&#x76EE;&#x5206;&#x652F;&#x4E2D;&#x7684;build.yml
+include:
+  - project: &apos;devops03/gitlabci-library-service&apos;
+    ref:  &quot;main&quot;
+    file:
+      - &quot;/build.yml&quot;
+
+stages:
+  - build
+
+ciBuild:
+  tags:
+    - build 
+  extends:
+    - .mavenBuild
+
+ciTriggerTest:
+  tags:
+    - build
+  stage: build
+  script:
+    - echo ${BUILD_TOOL}
+</code></pre>
+<p>&#x5B9E;&#x8DF5;&#xFF1A;</p>
+<pre><code class="lang-text">&#x7EC3;&#x4E60;Pipeline&#x6A21;&#x677F;&#x5E93;(&#x6D4B;&#x8BD5;&#x6210;&#x529F;)
+</code></pre>
+<p>-2022.5.6(&#x8FD9;&#x4E2A;&#x6709;&#x70B9;&#x96BE;&#x5EA6;)</p>
+<p>&#x8001;&#x5E08;&#x6587;&#x6863;</p>
+<ol>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x9879;&#x76EE; &#x201C;devops4/devops4-devops-service&#x201D; (&#x6A21;&#x677F;&#x5E93;);</li>
+<li>&#x4E3A;&#x9879;&#x76EE;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;CI&#x6A21;&#x677F;&#x6587;&#x4EF6;&#xFF08;ci/ci.yml&#xFF09;&#xFF1B;&#xFF08;&#x53C2;&#x8003;pipeline.yml&#xFF09;</li>
+<li>&#x6DFB;&#x52A0;cicd.yml &#x6587;&#x4EF6;&#xFF0C; pipeline&#xFF0C; include&#x5BFC;&#x5165;&#x6A21;&#x677F;&#x5E93;&#x4E2D;&#x7684;ci/ci.yml</li>
+</ol>
+<p><img src="https://pic2.zhimg.com/80/v2-aeb4bca3eabdc2e12cac8ca1f1803c61_720w.webp" alt="img"></p>
+<p>ci/ci.yml&#xFF1A;</p>
+<pre><code class="lang-text">&#x2018;devops4/devops4-devops-service   &#x6A21;&#x677F;&#x5E93;
+</code></pre>
+<pre><code class="lang-text">.build:
+  variables:
+    SHELL: &quot;mvn clean build&quot;
+  tags:
+    - build
+  stage: build
+  script: echo &quot;${SHELL}&quot;
+</code></pre>
+<p>cicd.yml</p>
+<pre><code class="lang-text">## &#x5BFC;&#x5165;&#x4ED3;&#x5E93;&#x6587;&#x4EF6;
+include:
+  - project: &apos;devops4/devops4-devops-service&apos;
+    ref: main
+    file: 
+      - &apos;/ci/ci.yml&apos;
+variables:
+  BUILD_SHELL: &quot;mvn build&quot;
+stages:
+  - build
+
+## &#x7EE7;&#x627F;&#x6A21;&#x677F;
+build:
+  extends: 
+    - .build
+  variables:
+    SHELL: $BUILD_SHELL
+</code></pre>
+<p>&#x8FDC;&#x7A0B;CI&#x6587;&#x4EF6;&#x914D;&#x7F6E;:</p>
+<p><a href="https://link.zhihu.com/?target=http%3A//192.168.1.200/devops4/devops4-devops-service/-/raw/main/cicd.yml" target="_blank">http://192.168.1.200/devops4/devops4-devops-service/-/raw/main/cicd.yml</a></p>
+<p><img src="https://pic3.zhimg.com/80/v2-4d19b4192d2e7d363df8895a50d39c3e_720w.webp" alt="img"></p>
+<p>&#x81EA;&#x5DF1;&#x6D4B;&#x8BD5;&#x8FC7;&#x7A0B;</p>
+<ul>
+<li>&#x521B;&#x5EFA;&#x6A21;&#x677F;&#x5E93;devops4-devops-service</li>
+</ul>
+<p><img src="https://pic3.zhimg.com/80/v2-758a566d6e8f183add5a31b2dd37c8b6_720w.webp" alt="img"></p>
+<p>&#x521B;&#x5EFA;&#x5982;&#x4E0B;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#xFF1A;</p>
+<p>ci/ci.yml</p>
+<pre><code class="lang-text">.build:
+  variables:
+    SHELL: &quot;mvn clean build&quot;
+  tags:
+    - build
+  stage: build
+  script: echo &quot;${SHELL}&quot;
+</code></pre>
+<p>cicd.yml</p>
+<pre><code class="lang-text">## &#x5BFC;&#x5165;&#x4ED3;&#x5E93;&#x6587;&#x4EF6;
+include:
+  - project: &apos;devops4/devops4-devops-service&apos;
+    ref: main
+    file: 
+      - &apos;/ci/ci.yml&apos;
+
+variables:
+  BUILD_SHELL: &quot;mvn build&quot;
+stages:
+  - build
+
+## &#x7EE7;&#x627F;&#x6A21;&#x677F;
+build:
+  extends: 
+    - .build
+  variables:
+    SHELL: $BUILD_SHELL
+</code></pre>
+<p><img src="https://pic3.zhimg.com/80/v2-ba4619bec37ef28792ff2eca402c6852_720w.webp" alt="img"></p>
+<p>&#x5199;&#x5B8C;&#x540E;&#x63D0;&#x4EA4;&#x3002;</p>
+<p>&#x83B7;&#x53D6;</p>
+<pre><code class="lang-text">cicd.yml
+</code></pre>
+<p>&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;&#xFF1A;</p>
+<p><img src="https://pic1.zhimg.com/80/v2-e52ab68199f8c55aaf4995ca8ca5921c_720w.webp" alt="img"></p>
+<p><a href="https://link.zhihu.com/?target=http%3A//172.29.9.101/devops4/devops4-devops-service/-/raw/main/cicd.yml" target="_blank">http://172.29.9.101/devops4/devops4-devops-service/-/raw/main/cicd.yml</a></p>
+<p><img src="https://pic1.zhimg.com/80/v2-59e059f046e850faa9544cc849a75e38_720w.webp" alt="img"></p>
+<ul>
+<li>&#x6765;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x91CC;devops4-monrepo-service</li>
+</ul>
+<p><img src="https://pic4.zhimg.com/80/v2-6721da953ef871c2a2014fea329b924b_720w.webp" alt="img"></p>
+<p>&#x5728;&#x9879;&#x76EE;&gt;</p>
+<pre><code class="lang-text">Settings
+</code></pre>
+<p>&gt;</p>
+<pre><code class="lang-text">CI/CD
+</code></pre>
+<p>&gt;</p>
+<pre><code class="lang-text">Gerneral pipelines
+</code></pre>
+<p>&#x91CC;&#x628A;&#x521A;&#x624D;&#x62F7;&#x8D1D;&#x7684;&#x90A3;&#x4E2A;&#x94FE;&#x63A5;&#x586B;&#x5728;&#x8FD9;&#x91CC;&#xFF0C;&#x4FDD;&#x5B58;&#xFF1A;</p>
+<p><img src="https://pic4.zhimg.com/80/v2-310de494f28fb94eda0e9785d28ae56f_720w.webp" alt="img"></p>
+<ul>
+<li>&#x7136;&#x540E;&#xFF0C;&#x76F4;&#x63A5;&#x8FD0;&#x884C;&#x8FD9;&#x4E2A;&#x6D41;&#x6C34;&#x7EBF;&#xFF0C;&#x89C2;&#x5BDF;&#x6548;&#x679C;&#xFF1A;</li>
+</ul>
+<p><img src="https://pic1.zhimg.com/80/v2-671cd3024bd3fc30de8ea02e5306cd44_720w.webp" alt="img"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-f941f276643eef0ee52e7911de962e80_720w.webp" alt="img"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="install.html" class="navigation navigation-prev " aria-label="Previous page: 安装gitlab/runner">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="pipeline.html" class="navigation navigation-next " aria-label="Next page: runner流水线">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"pipeline基础","level":"1.12.3.2","depth":3,"next":{"title":"runner流水线","level":"1.12.3.3","depth":3,"path":"gitlab/pipeline.md","ref":"gitlab/pipeline.md","articles":[]},"previous":{"title":"安装gitlab/runner","level":"1.12.3.1","depth":3,"path":"gitlab/install.md","ref":"gitlab/install.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["splitter","expandable-chapters","livereload"],"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/style.css"}},"file":{"path":"gitlab/basic.md","mtime":"2022-10-05T12:18:00.711Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-16T07:54:56.792Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

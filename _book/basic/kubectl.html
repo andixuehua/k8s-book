@@ -1,0 +1,2718 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>kubectl · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../config/api.html" />
+    
+    
+    <link rel="prev" href="../config/kubeconfig.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Docker
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../docker/basic.html">
+            
+                <a href="../docker/basic.html">
+            
+                    
+                    常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../docker/config.html">
+            
+                <a href="../docker/config.html">
+            
+                    
+                    配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../docker/dockerfile.html">
+            
+                <a href="../docker/dockerfile.html">
+            
+                    
+                    Dockerfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../docker/registry.html">
+            
+                <a href="../docker/registry.html">
+            
+                    
+                    Registry Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    cri-o
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../cri-o/cri-o.html">
+            
+                <a href="../cri-o/cri-o.html">
+            
+                    
+                    cri-o
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../cri-o/crictl.html">
+            
+                <a href="../cri-o/crictl.html">
+            
+                    
+                    crictl
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    查看安装配置及访问
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../config/kubeconfig.html">
+            
+                <a href="../config/kubeconfig.html">
+            
+                    
+                    kubeconfig
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="kubectl.html">
+            
+                <a href="kubectl.html">
+            
+                    
+                    kubectl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../config/api.html">
+            
+                <a href="../config/api.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../config/component.html">
+            
+                <a href="../config/component.html">
+            
+                    
+                    核心服务组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../config/network.html">
+            
+                <a href="../config/network.html">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    基本配置
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="label.html">
+            
+                <a href="label.html">
+            
+                    
+                    label & annoation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="namespace.html">
+            
+                <a href="namespace.html">
+            
+                    
+                    namespace
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="registry.html">
+            
+                <a href="registry.html">
+            
+                    
+                    配置registry的访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" >
+            
+                <span>
+            
+                    
+                    pod
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="pod.html">
+            
+                <a href="pod.html">
+            
+                    
+                    pod
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="init-container.html">
+            
+                <a href="init-container.html">
+            
+                    
+                    init-container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.3" data-path="sidecar.html">
+            
+                <a href="sidecar.html">
+            
+                    
+                    sidecar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.4" data-path="lifecycle.html">
+            
+                <a href="lifecycle.html">
+            
+                    
+                    生命周期lifecycle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.5" data-path="health.html">
+            
+                <a href="health.html">
+            
+                    
+                    health检查
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" >
+            
+                <span>
+            
+                    
+                    controller
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="replicaset.html">
+            
+                <a href="replicaset.html">
+            
+                    
+                    ReplicasSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.2" data-path="deployment.html">
+            
+                <a href="deployment.html">
+            
+                    
+                    deployment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.3" data-path="statefulset.html">
+            
+                <a href="statefulset.html">
+            
+                    
+                    statefulset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.4" data-path="daemonset.html">
+            
+                <a href="daemonset.html">
+            
+                    
+                    daemonset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.5" data-path="job.html">
+            
+                <a href="job.html">
+            
+                    
+                    job & cronjob
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" >
+            
+                <span>
+            
+                    
+                    配置挂载
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="configmap-1.html">
+            
+                <a href="configmap-1.html">
+            
+                    
+                    挂载configmap文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="configmap-2.html">
+            
+                <a href="configmap-2.html">
+            
+                    
+                    挂载secret
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.3" data-path="../pv/empty.html">
+            
+                <a href="../pv/empty.html">
+            
+                    
+                    挂载空目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="svc.html">
+            
+                <a href="svc.html">
+            
+                    
+                    Service/svc
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    网络
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../network/dns.html">
+            
+                <a href="../network/dns.html">
+            
+                    
+                    coreDNS/kubeDNS/pod DNS/DNS policy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../network/controller.html">
+            
+                <a href="../network/controller.html">
+            
+                    
+                    ingress controller/class
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../network/ingress.html">
+            
+                <a href="../network/ingress.html">
+            
+                    
+                    应用ingress的建立
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../network/route.html">
+            
+                <a href="../network/route.html">
+            
+                    
+                    ingress/会话保持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../network/hostnetwork.html">
+            
+                <a href="../network/hostnetwork.html">
+            
+                    
+                    hostnetwork部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    pod高级资源与调度
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../resource/label.html">
+            
+                <a href="../resource/label.html">
+            
+                    
+                    按label调度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../resource/node.html">
+            
+                <a href="../resource/node.html">
+            
+                    
+                    按节点调度亲和性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../resource/taint.html">
+            
+                <a href="../resource/taint.html">
+            
+                    
+                    污点与容忍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../resource/node.html">
+            
+                <a href="../resource/node.html">
+            
+                    
+                    node管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../resource/limits.html">
+            
+                <a href="../resource/limits.html">
+            
+                    
+                    limitrange
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../resource/quota.html">
+            
+                <a href="../resource/quota.html">
+            
+                    
+                    配额
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="hpa.html">
+            
+                <a href="hpa.html">
+            
+                    
+                    hpa
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="downwardapi.html">
+            
+                <a href="downwardapi.html">
+            
+                    
+                    downwardapi
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    用户与权限
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../user/auth.html">
+            
+                <a href="../user/auth.html">
+            
+                    
+                    身份认证Authenticating
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../user/user.html">
+            
+                <a href="../user/user.html">
+            
+                    
+                    user/role/rolebinding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../user/sa.html">
+            
+                <a href="../user/sa.html">
+            
+                    
+                    serviceaccount
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../user/scc.html">
+            
+                <a href="../user/scc.html">
+            
+                    
+                    security context
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../network/policy.html">
+            
+                <a href="../network/policy.html">
+            
+                    
+                    networkpolicy
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    存储
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../pv/pvc.html">
+            
+                <a href="../pv/pvc.html">
+            
+                    
+                    pvc/pv/storageclass/手工建立
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../pv/rwo.html">
+            
+                <a href="../pv/rwo.html">
+            
+                    
+                    卷的挂载和读写模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../pv/pv-extend.html">
+            
+                <a href="../pv/pv-extend.html">
+            
+                    
+                    卷的扩容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../pv/claimpolicy.html">
+            
+                <a href="../pv/claimpolicy.html">
+            
+                    
+                    卷数据的保留和复用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../pv/statefulset.html">
+            
+                <a href="../pv/statefulset.html">
+            
+                    
+                    statefulset的卷
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../pv/deployment.html">
+            
+                <a href="../pv/deployment.html">
+            
+                    
+                    demployment的卷
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../pv/hostpath.html">
+            
+                <a href="../pv/hostpath.html">
+            
+                    
+                    hostpath
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="../pv/mysql.html">
+            
+                <a href="../pv/mysql.html">
+            
+                    
+                    mysql pv
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    监控
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../install/monitor.html">
+            
+                <a href="../install/monitor.html">
+            
+                    
+                    集群的监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" >
+            
+                <span>
+            
+                    
+                    应用的监控
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.2.1" data-path="../monitor/jvm.html">
+            
+                <a href="../monitor/jvm.html">
+            
+                    
+                    JVM的监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2.2" data-path="../monitor/mysql.html">
+            
+                <a href="../monitor/mysql.html">
+            
+                    
+                    mySQL的监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../monitor/alert.html">
+            
+                <a href="../monitor/alert.html">
+            
+                    
+                    自定义报警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../monitor/prometheus.html">
+            
+                <a href="../monitor/prometheus.html">
+            
+                    
+                    promethues指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" >
+            
+                <span>
+            
+                    
+                    报警规则梳理
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    日志
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" >
+            
+                <span>
+            
+                    
+                    收集
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1.1" data-path="../install/efk.html">
+            
+                <a href="../install/efk.html">
+            
+                    
+                    EFK部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.1.2" data-path="../log/filebeat-sidecar.html">
+            
+                <a href="../log/filebeat-sidecar.html">
+            
+                    
+                    filebeat sidecar
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" >
+            
+                <span>
+            
+                    
+                    CI
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../jenkins/prelog.html">
+            
+                <a href="../jenkins/prelog.html">
+            
+                    
+                    CICD规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" >
+            
+                <span>
+            
+                    
+                    使用Jenkins
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.2.1" data-path="../jenkins/plan.html">
+            
+                <a href="../jenkins/plan.html">
+            
+                    
+                    规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.2" data-path="../jenkins/install.html">
+            
+                <a href="../jenkins/install.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.3" data-path="../jenkins/plugin.html">
+            
+                <a href="../jenkins/plugin.html">
+            
+                    
+                    配置jenkins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.4" data-path="../jenkins/job.html">
+            
+                <a href="../jenkins/job.html">
+            
+                    
+                    job构建示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.5" data-path="../jenkins/basic.html">
+            
+                <a href="../jenkins/basic.html">
+            
+                    
+                    pipeline声明式基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.6" data-path="../jenkins/pipeline.html">
+            
+                <a href="../jenkins/pipeline.html">
+            
+                    
+                    piepline示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.7" data-path="../jenkins/jenkinsfile.html">
+            
+                <a href="../jenkins/jenkinsfile.html">
+            
+                    
+                    Jenkinsfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.8" data-path="../jenkins/sharedlib.html">
+            
+                <a href="../jenkins/sharedlib.html">
+            
+                    
+                    使用sharedlibrary进行构建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.9" data-path="../jenkins/k8s.html">
+            
+                <a href="../jenkins/k8s.html">
+            
+                    
+                    jenkins与k8s的集成配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" >
+            
+                <span>
+            
+                    
+                    gitlab CI
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.3.1" data-path="../gitlab/install.html">
+            
+                <a href="../gitlab/install.html">
+            
+                    
+                    安装gitlab/runner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3.2" data-path="../gitlab/basic.html">
+            
+                <a href="../gitlab/basic.html">
+            
+                    
+                    pipeline基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3.3" data-path="../gitlab/pipeline.html">
+            
+                <a href="../gitlab/pipeline.html">
+            
+                    
+                    runner流水线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3.4" data-path="../gitlab/ci.html">
+            
+                <a href="../gitlab/ci.html">
+            
+                    
+                    CI/CD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3.5" data-path="../gitlab/k8s.html">
+            
+                <a href="../gitlab/k8s.html">
+            
+                    
+                    关联k8s
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="../docker/dockerfile.html">
+            
+                <a href="../docker/dockerfile.html">
+            
+                    
+                    Dockerfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.5" data-path="../ci/case.md">
+            
+                <span>
+            
+                    
+                    案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" >
+            
+                <span>
+            
+                    
+                    CD
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../cd/new-app.html">
+            
+                <a href="../cd/new-app.html">
+            
+                    
+                    应用的建立的基本方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../cd/policy.html">
+            
+                <a href="../cd/policy.html">
+            
+                    
+                    部署策略
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="../cd/bluegreen.html">
+            
+                <a href="../cd/bluegreen.html">
+            
+                    
+                    蓝绿
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.4" data-path="../cd/ab.html">
+            
+                <a href="../cd/ab.html">
+            
+                    
+                    金丝雀
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.5" data-path="../cd/jenkins-cd.html">
+            
+                <a href="../cd/jenkins-cd.html">
+            
+                    
+                    使用Jenkins发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.6" data-path="../cd/argocd.html">
+            
+                <a href="../cd/argocd.html">
+            
+                    
+                    使用argoCD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" >
+            
+                <span>
+            
+                    
+                    Helm
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../helm/basic.html">
+            
+                <a href="../helm/basic.html">
+            
+                    
+                    架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../helm/arch.html">
+            
+                <a href="../helm/arch.html">
+            
+                    
+                    模板语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" data-path="../helm/detail.html">
+            
+                <a href="../helm/detail.html">
+            
+                    
+                    部署命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" >
+            
+                <span>
+            
+                    
+                    operator
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../operator/operator.html">
+            
+                <a href="../operator/operator.html">
+            
+                    
+                    operator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" >
+            
+                <span>
+            
+                    
+                    API调用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" >
+            
+                <span>
+            
+                    
+                    Python Lib
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    基础安装
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../install/docker.html">
+            
+                <a href="../install/docker.html">
+            
+                    
+                    阿里源替换,doker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../install/repo.md">
+            
+                <span>
+            
+                    
+                    离线yum repo/httpd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../install/dns.html">
+            
+                <a href="../install/dns.html">
+            
+                    
+                    dnsmasq
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../install/ha.html">
+            
+                <a href="../install/ha.html">
+            
+                    
+                    haproxy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../install/keepalived.md">
+            
+                <span>
+            
+                    
+                    keepalvied
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="registry.html">
+            
+                <a href="registry.html">
+            
+                    
+                    registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" >
+            
+                <span>
+            
+                    
+                    [harbor]
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <span>
+            
+                    
+                    安装
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../install/single-1.19.html">
+            
+                <a href="../install/single-1.19.html">
+            
+                    
+                    单master测试环境 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../install/ha.html">
+            
+                <a href="../install/ha.html">
+            
+                    
+                    多master生产环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../install/token.html">
+            
+                <a href="../install/token.html">
+            
+                    
+                    kubeadm token/ca
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" >
+            
+                <span>
+            
+                    
+                    离线安装
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" >
+            
+                <span>
+            
+                    
+                    安装前的证书规划
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" >
+            
+                <span>
+            
+                    
+                    1.21以上containered替换安装
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" >
+            
+                <span>
+            
+                    
+                    Network
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../install/metric.html">
+            
+                <a href="../install/metric.html">
+            
+                    
+                    metric server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../install/ingress.html">
+            
+                <a href="../install/ingress.html">
+            
+                    
+                    nginx ingress controller
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../install/dashboard.html">
+            
+                <a href="../install/dashboard.html">
+            
+                    
+                    dashboard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../install/monitor.html">
+            
+                <a href="../install/monitor.html">
+            
+                    
+                    Prometheus/grafana
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../install/nfs.html">
+            
+                <a href="../install/nfs.html">
+            
+                    
+                    NFS storageclass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="../install/efk.html">
+            
+                <a href="../install/efk.html">
+            
+                    
+                    EFK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="../install/etcd.html">
+            
+                <a href="../install/etcd.html">
+            
+                    
+                    ETCD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" >
+            
+                <span>
+            
+                    
+                    Day2配置
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../day2/ntp.md">
+            
+                <span>
+            
+                    
+                    ntp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" >
+            
+                <span>
+            
+                    
+                    [basic user]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" >
+            
+                <span>
+            
+                    
+                    [ladp/AD]
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" >
+            
+                <span>
+            
+                    
+                    Upgrade
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../upgrade/cluster.md">
+            
+                <span>
+            
+                    
+                    离线升级集群
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../upgrade/ca.html">
+            
+                <a href="../upgrade/ca.html">
+            
+                    
+                    证书更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" >
+            
+                <span>
+            
+                    
+                    servicemesh
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../istio/control.md">
+            
+                <span>
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../istio/bookinfo.md">
+            
+                <span>
+            
+                    
+                    bookinfo 演示
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >kubectl</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><a href="https://kubernetes.io/docs/reference/kubectl/cheatsheet/" target="_blank">https://kubernetes.io/docs/reference/kubectl/cheatsheet/</a></p>
+<h1 id="kubectl-cheat-sheet">kubectl Cheat Sheet</h1>
+<p>This page contains a list of commonly used <code>kubectl</code> commands and flags.</p>
+<h2 id="kubectl-autocomplete">Kubectl autocomplete</h2>
+<h3 id="bash">BASH</h3>
+<pre><code class="lang-bash">yum install bash-completion -y
+<span class="hljs-built_in">source</span> /usr/share/bash-completion/bash_completion
+<span class="hljs-built_in">source</span> &lt;(kubectl completion bash)
+kubectl completion bash &gt;/etc/bash_completion.d/kubectl
+</code></pre>
+<p>You can also use a shorthand alias for <code>kubectl</code> that also works with completion:</p>
+<pre><code class="lang-bash"><span class="hljs-built_in">alias</span> k=kubectl
+complete -F __start_kubectl k
+</code></pre>
+<h3 id="zsh">ZSH</h3>
+<pre><code class="lang-bash"><span class="hljs-built_in">source</span> &lt;(kubectl completion zsh)  <span class="hljs-comment"># setup autocomplete in zsh into the current shell</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;[[ <span class="hljs-variable">$commands</span>[kubectl] ]] &amp;&amp; source &lt;(kubectl completion zsh)&quot;</span> &gt;&gt; ~/.zshrc <span class="hljs-comment"># add autocomplete permanently to your zsh shell</span>
+</code></pre>
+<h2 id="kubectl-context-and-configuration">Kubectl context and configuration</h2>
+<p>Set which Kubernetes cluster <code>kubectl</code> communicates with and modifies configuration information. See <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" target="_blank">Authenticating Across Clusters with kubeconfig</a> documentation for detailed config file information.</p>
+<pre><code class="lang-bash">kubectl config view <span class="hljs-comment"># Show Merged kubeconfig settings.</span>
+
+<span class="hljs-comment"># use multiple kubeconfig files at the same time and view merged config</span>
+KUBECONFIG=~/.kube/config:~/.kube/kubconfig2 
+
+kubectl config view
+
+<span class="hljs-comment"># get the password for the e2e user</span>
+kubectl config view -o jsonpath=<span class="hljs-string">&apos;{.users[?(@.name == &quot;e2e&quot;)].user.password}&apos;</span>
+
+kubectl config view -o jsonpath=<span class="hljs-string">&apos;{.users[].name}&apos;</span>    <span class="hljs-comment"># display the first user</span>
+kubectl config view -o jsonpath=<span class="hljs-string">&apos;{.users[*].name}&apos;</span>   <span class="hljs-comment"># get a list of users</span>
+kubectl config get-contexts                          <span class="hljs-comment"># display list of contexts </span>
+kubectl config current-context                       <span class="hljs-comment"># display the current-context</span>
+kubectl config use-context my-cluster-name           <span class="hljs-comment"># set the default context to my-cluster-name</span>
+
+<span class="hljs-comment"># add a new user to your kubeconf that supports basic auth</span>
+kubectl config <span class="hljs-built_in">set</span>-credentials kubeuser/foo.kubernetes.com --username=kubeuser --password=kubepassword
+
+<span class="hljs-comment"># permanently save the namespace for all subsequent kubectl commands in that context.</span>
+kubectl config <span class="hljs-built_in">set</span>-context --current --namespace=ggckad<span class="hljs-_">-s</span>2
+
+<span class="hljs-comment"># set a context utilizing a specific username and namespace.</span>
+kubectl config <span class="hljs-built_in">set</span>-context gce --user=cluster-admin --namespace=foo \
+  &amp;&amp; kubectl config use-context gce
+
+kubectl config <span class="hljs-built_in">unset</span> users.foo                       <span class="hljs-comment"># delete user foo</span>
+
+<span class="hljs-comment"># short alias to set/show context/namespace (only works for bash and bash-compatible shells, current context to be set before using kn to set namespace) </span>
+<span class="hljs-built_in">alias</span> kx=<span class="hljs-string">&apos;f() { [ &quot;$1&quot; ] &amp;&amp; kubectl config use-context $1 || kubectl config current-context ; } ; f&apos;</span>
+<span class="hljs-built_in">alias</span> kn=<span class="hljs-string">&apos;f() { [ &quot;$1&quot; ] &amp;&amp; kubectl config set-context --current --namespace $1 || kubectl config view --minify | grep namespace | cut -d&quot; &quot; -f6 ; } ; f&apos;</span>
+</code></pre>
+<h2 id="kubectl-apply">Kubectl apply</h2>
+<p><code>apply</code> manages applications through files defining Kubernetes resources. It creates and updates resources in a cluster through running <code>kubectl apply</code>. This is the recommended way of managing Kubernetes applications on production. See <a href="https://kubectl.docs.kubernetes.io/" target="_blank">Kubectl Book</a>.</p>
+<h2 id="creating-objects">Creating objects</h2>
+<p>Kubernetes manifests can be defined in YAML or JSON. The file extension <code>.yaml</code>, <code>.yml</code>, and <code>.json</code> can be used.</p>
+<pre><code class="lang-bash">kubectl apply <span class="hljs-_">-f</span> ./my-manifest.yaml            <span class="hljs-comment"># create resource(s)</span>
+kubectl apply <span class="hljs-_">-f</span> ./my1.yaml <span class="hljs-_">-f</span> ./my2.yaml      <span class="hljs-comment"># create from multiple files</span>
+kubectl apply <span class="hljs-_">-f</span> ./dir                         <span class="hljs-comment"># create resource(s) in all manifest files in dir</span>
+kubectl apply <span class="hljs-_">-f</span> https://git.io/vPieo          <span class="hljs-comment"># create resource(s) from url</span>
+kubectl create deployment nginx --image=nginx  <span class="hljs-comment"># start a single instance of nginx</span>
+
+<span class="hljs-comment"># create a Job which prints &quot;Hello World&quot;</span>
+kubectl create job hello --image=busybox -- <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Hello World&quot;</span> 
+
+<span class="hljs-comment"># create a CronJob that prints &quot;Hello World&quot; every minute</span>
+kubectl create cronjob hello --image=busybox   --schedule=<span class="hljs-string">&quot;*/1 * * * *&quot;</span> -- <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Hello World&quot;</span>    
+
+kubectl explain pods                           <span class="hljs-comment"># get the documentation for pod manifests</span>
+
+<span class="hljs-comment"># Create multiple YAML objects from stdin</span>
+cat &lt;&lt;EOF | kubectl apply <span class="hljs-_">-f</span> -
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-sleep
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    args:
+    - sleep
+    - <span class="hljs-string">&quot;1000000&quot;</span>
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-sleep-less
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    args:
+    - sleep
+    - <span class="hljs-string">&quot;1000&quot;</span>
+EOF
+
+<span class="hljs-comment"># Create a secret with several keys</span>
+cat &lt;&lt;EOF | kubectl apply <span class="hljs-_">-f</span> -
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysecret
+<span class="hljs-built_in">type</span>: Opaque
+data:
+  password: $(<span class="hljs-built_in">echo</span> -n <span class="hljs-string">&quot;s33msi4&quot;</span> | base64 -w0)
+  username: $(<span class="hljs-built_in">echo</span> -n <span class="hljs-string">&quot;jane&quot;</span> | base64 -w0)
+EOF
+</code></pre>
+<h2 id="viewing-finding-resources">Viewing, finding resources</h2>
+<pre><code class="lang-bash"><span class="hljs-comment"># Get commands with basic output</span>
+kubectl get services                          <span class="hljs-comment"># List all services in the namespace</span>
+kubectl get pods --all-namespaces             <span class="hljs-comment"># List all pods in all namespaces</span>
+kubectl get pods -o wide                      <span class="hljs-comment"># List all pods in the current namespace, with more details</span>
+kubectl get deployment my-dep                 <span class="hljs-comment"># List a particular deployment</span>
+kubectl get pods                              <span class="hljs-comment"># List all pods in the namespace</span>
+kubectl get pod my-pod -o yaml                <span class="hljs-comment"># Get a pod&apos;s YAML</span>
+
+<span class="hljs-comment"># Describe commands with verbose output</span>
+kubectl describe nodes my-node
+kubectl describe pods my-pod
+
+<span class="hljs-comment"># List Services Sorted by Name</span>
+kubectl get services --sort-by=.metadata.name
+
+<span class="hljs-comment"># List pods Sorted by Restart Count</span>
+kubectl get pods --sort-by=<span class="hljs-string">&apos;.status.containerStatuses[0].restartCount&apos;</span>
+
+<span class="hljs-comment"># List PersistentVolumes sorted by capacity</span>
+kubectl get pv --sort-by=.spec.capacity.storage
+
+<span class="hljs-comment"># Get the version label of all pods with label app=cassandra</span>
+kubectl get pods --selector=app=cassandra -o \
+  jsonpath=<span class="hljs-string">&apos;{.items[*].metadata.labels.version}&apos;</span>
+
+<span class="hljs-comment"># Retrieve the value of a key with dots, e.g. &apos;ca.crt&apos;</span>
+kubectl get configmap myconfig \
+  -o jsonpath=<span class="hljs-string">&apos;{.data.ca\.crt}&apos;</span>
+
+<span class="hljs-comment"># Get all worker nodes (use a selector to exclude results that have a label</span>
+<span class="hljs-comment"># named &apos;node-role.kubernetes.io/master&apos;)</span>
+kubectl get node --selector=<span class="hljs-string">&apos;!node-role.kubernetes.io/master&apos;</span>
+
+<span class="hljs-comment"># Get all running pods in the namespace</span>
+kubectl get pods --field-selector=status.phase=Running
+
+<span class="hljs-comment"># Get ExternalIPs of all nodes</span>
+kubectl get nodes -o jsonpath=<span class="hljs-string">&apos;{.items[*].status.addresses[?(@.type==&quot;ExternalIP&quot;)].address}&apos;</span>
+
+<span class="hljs-comment"># List Names of Pods that belong to Particular RC</span>
+<span class="hljs-comment"># &quot;jq&quot; command useful for transformations that are too complex for jsonpath, it can be found at https://stedolan.github.io/jq/</span>
+sel=<span class="hljs-variable">${$(kubectl get rc my-rc --output=json | jq -j &apos;.spec.selector | to_entries | .[] | &quot;\(.key)=\(.value),&quot;&apos;)%?}</span>
+<span class="hljs-built_in">echo</span> $(kubectl get pods --selector=<span class="hljs-variable">$sel</span> --output=jsonpath={.items..metadata.name})
+
+<span class="hljs-comment"># Show labels for all pods (or any other Kubernetes object that supports labelling)</span>
+kubectl get pods --show-labels
+
+<span class="hljs-comment"># Check which nodes are ready</span>
+JSONPATH=<span class="hljs-string">&apos;{range .items[*]}{@.metadata.name}:{range @.status.conditions[*]}{@.type}={@.status};{end}{end}&apos;</span> \
+ &amp;&amp; kubectl get nodes -o jsonpath=<span class="hljs-string">&quot;<span class="hljs-variable">$JSONPATH</span>&quot;</span> | grep <span class="hljs-string">&quot;Ready=True&quot;</span>
+
+<span class="hljs-comment"># Output decoded secrets without external tools</span>
+kubectl get secret my-secret -o go-template=<span class="hljs-string">&apos;{{range $k,$v := .data}}{{&quot;### &quot;}}{{$k}}{{&quot;\n&quot;}}{{$v|base64decode}}{{&quot;\n\n&quot;}}{{end}}&apos;</span>
+
+<span class="hljs-comment"># List all Secrets currently in use by a pod</span>
+kubectl get pods -o json | jq <span class="hljs-string">&apos;.items[].spec.containers[].env[]?.valueFrom.secretKeyRef.name&apos;</span> | grep -v null | sort | uniq
+
+<span class="hljs-comment"># List all containerIDs of initContainer of all pods</span>
+<span class="hljs-comment"># Helpful when cleaning up stopped containers, while avoiding removal of initContainers.</span>
+kubectl get pods --all-namespaces -o jsonpath=<span class="hljs-string">&apos;{range .items[*].status.initContainerStatuses[*]}{.containerID}{&quot;\n&quot;}{end}&apos;</span> | cut <span class="hljs-_">-d</span>/ <span class="hljs-_">-f</span>3
+
+<span class="hljs-comment"># List Events sorted by timestamp</span>
+kubectl get events --sort-by=.metadata.creationTimestamp
+
+<span class="hljs-comment"># Compares the current state of the cluster against the state that the cluster would be in if the manifest was applied.</span>
+kubectl diff <span class="hljs-_">-f</span> ./my-manifest.yaml
+
+<span class="hljs-comment"># Produce a period-delimited tree of all keys returned for nodes</span>
+<span class="hljs-comment"># Helpful when locating a key within a complex nested JSON structure</span>
+kubectl get nodes -o json | jq -c <span class="hljs-string">&apos;paths|join(&quot;.&quot;)&apos;</span>
+
+<span class="hljs-comment"># Produce a period-delimited tree of all keys returned for pods, etc</span>
+kubectl get pods -o json | jq -c <span class="hljs-string">&apos;paths|join(&quot;.&quot;)&apos;</span>
+
+<span class="hljs-comment"># Produce ENV for all pods, assuming you have a default container for the pods, default namespace and the `env` command is supported.</span>
+<span class="hljs-comment"># Helpful when running any supported command across all pods, not just `env`</span>
+<span class="hljs-keyword">for</span> pod <span class="hljs-keyword">in</span> $(kubectl get po --output=jsonpath={.items..metadata.name}); <span class="hljs-keyword">do</span> <span class="hljs-built_in">echo</span> <span class="hljs-variable">$pod</span> &amp;&amp; kubectl <span class="hljs-built_in">exec</span> -it <span class="hljs-variable">$pod</span> -- env; <span class="hljs-keyword">done</span>
+</code></pre>
+<h2 id="updating-resources">Updating resources</h2>
+<pre><code class="lang-bash">kubectl <span class="hljs-built_in">set</span> image deployment/frontend www=image:v2               <span class="hljs-comment"># Rolling update &quot;www&quot; containers of &quot;frontend&quot; deployment, updating the image</span>
+kubectl rollout <span class="hljs-built_in">history</span> deployment/frontend                      <span class="hljs-comment"># Check the history of deployments including the revision </span>
+kubectl rollout undo deployment/frontend                         <span class="hljs-comment"># Rollback to the previous deployment</span>
+kubectl rollout undo deployment/frontend --to-revision=2         <span class="hljs-comment"># Rollback to a specific revision</span>
+kubectl rollout status -w deployment/frontend                    <span class="hljs-comment"># Watch rolling update status of &quot;frontend&quot; deployment until completion</span>
+kubectl rollout restart deployment/frontend                      <span class="hljs-comment"># Rolling restart of the &quot;frontend&quot; deployment</span>
+
+
+cat pod.json | kubectl replace <span class="hljs-_">-f</span> -                              <span class="hljs-comment"># Replace a pod based on the JSON passed into std</span>
+
+<span class="hljs-comment"># Force replace, delete and then re-create the resource. Will cause a service outage.</span>
+kubectl replace --force <span class="hljs-_">-f</span> ./pod.json
+
+<span class="hljs-comment"># Create a service for a replicated nginx, which serves on port 80 and connects to the containers on port 8000</span>
+kubectl expose rc nginx --port=80 --target-port=8000
+
+<span class="hljs-comment"># Update a single-container pod&apos;s image version (tag) to v4</span>
+kubectl get pod mypod -o yaml | sed <span class="hljs-string">&apos;s/\(image: myimage\):.*$/\1:v4/&apos;</span> | kubectl replace <span class="hljs-_">-f</span> -
+
+kubectl label pods my-pod new-label=awesome                      <span class="hljs-comment"># Add a Label</span>
+kubectl annotate pods my-pod icon-url=http://goo.gl/XXBTWq       <span class="hljs-comment"># Add an annotation</span>
+kubectl autoscale deployment foo --min=2 --max=10                <span class="hljs-comment"># Auto scale a deployment &quot;foo&quot;</span>
+</code></pre>
+<h2 id="patching-resources">Patching resources</h2>
+<pre><code class="lang-bash"><span class="hljs-comment"># Partially update a node</span>
+kubectl patch node k8s-node-1 -p <span class="hljs-string">&apos;{&quot;spec&quot;:{&quot;unschedulable&quot;:true}}&apos;</span>
+
+<span class="hljs-comment"># Update a container&apos;s image; spec.containers[*].name is required because it&apos;s a merge key</span>
+kubectl patch pod valid-pod -p <span class="hljs-string">&apos;{&quot;spec&quot;:{&quot;containers&quot;:[{&quot;name&quot;:&quot;kubernetes-serve-hostname&quot;,&quot;image&quot;:&quot;new image&quot;}]}}&apos;</span>
+
+<span class="hljs-comment"># Update a container&apos;s image using a json patch with positional arrays</span>
+kubectl patch pod valid-pod --type=<span class="hljs-string">&apos;json&apos;</span> -p=<span class="hljs-string">&apos;[{&quot;op&quot;: &quot;replace&quot;, &quot;path&quot;: &quot;/spec/containers/0/image&quot;, &quot;value&quot;:&quot;new image&quot;}]&apos;</span>
+
+<span class="hljs-comment"># Disable a deployment livenessProbe using a json patch with positional arrays</span>
+kubectl patch deployment valid-deployment  --type json   -p=<span class="hljs-string">&apos;[{&quot;op&quot;: &quot;remove&quot;, &quot;path&quot;: &quot;/spec/template/spec/containers/0/livenessProbe&quot;}]&apos;</span>
+
+<span class="hljs-comment"># Add a new element to a positional array</span>
+kubectl patch sa default --type=<span class="hljs-string">&apos;json&apos;</span> -p=<span class="hljs-string">&apos;[{&quot;op&quot;: &quot;add&quot;, &quot;path&quot;: &quot;/secrets/1&quot;, &quot;value&quot;: {&quot;name&quot;: &quot;whatever&quot; } }]&apos;</span>
+</code></pre>
+<h2 id="editing-resources">Editing resources</h2>
+<p>Edit any API resource in your preferred editor.</p>
+<pre><code class="lang-bash">kubectl edit svc/docker-registry                      <span class="hljs-comment"># Edit the service named docker-registry</span>
+KUBE_EDITOR=<span class="hljs-string">&quot;nano&quot;</span> kubectl edit svc/docker-registry   <span class="hljs-comment"># Use an alternative editor</span>
+</code></pre>
+<h2 id="scaling-resources">Scaling resources</h2>
+<pre><code class="lang-bash">kubectl scale --replicas=3 rs/foo                                 <span class="hljs-comment"># Scale a replicaset named &apos;foo&apos; to 3</span>
+kubectl scale --replicas=3 <span class="hljs-_">-f</span> foo.yaml                            <span class="hljs-comment"># Scale a resource specified in &quot;foo.yaml&quot; to 3</span>
+kubectl scale --current-replicas=2 --replicas=3 deployment/mysql  <span class="hljs-comment"># If the deployment named mysql&apos;s current size is 2, scale mysql to 3</span>
+kubectl scale --replicas=5 rc/foo rc/bar rc/baz                   <span class="hljs-comment"># Scale multiple replication controllers</span>
+</code></pre>
+<h2 id="deleting-resources">Deleting resources</h2>
+<pre><code class="lang-bash">kubectl delete <span class="hljs-_">-f</span> ./pod.json                                      <span class="hljs-comment"># Delete a pod using the type and name specified in pod.json</span>
+kubectl delete pod unwanted --now                                 <span class="hljs-comment"># Delete a pod with no grace period</span>
+kubectl delete pod,service baz foo                                <span class="hljs-comment"># Delete pods and services with same names &quot;baz&quot; and &quot;foo&quot;</span>
+kubectl delete pods,services <span class="hljs-_">-l</span> name=myLabel                      <span class="hljs-comment"># Delete pods and services with label name=myLabel</span>
+kubectl -n my-ns delete pod,svc --all                             <span class="hljs-comment"># Delete all pods and services in namespace my-ns,</span>
+<span class="hljs-comment"># Delete all pods matching the awk pattern1 or pattern2</span>
+kubectl get pods  -n mynamespace --no-headers=<span class="hljs-literal">true</span> | awk <span class="hljs-string">&apos;/pattern1|pattern2/{print $1}&apos;</span> | xargs  kubectl delete -n mynamespace pod
+</code></pre>
+<h2 id="interacting-with-running-pods">Interacting with running Pods</h2>
+<pre><code class="lang-bash">kubectl logs my-pod                                 <span class="hljs-comment"># dump pod logs (stdout)</span>
+kubectl logs <span class="hljs-_">-l</span> name=myLabel                        <span class="hljs-comment"># dump pod logs, with label name=myLabel (stdout)</span>
+kubectl logs my-pod --previous                      <span class="hljs-comment"># dump pod logs (stdout) for a previous instantiation of a container</span>
+kubectl logs my-pod -c my-container                 <span class="hljs-comment"># dump pod container logs (stdout, multi-container case)</span>
+kubectl logs <span class="hljs-_">-l</span> name=myLabel -c my-container        <span class="hljs-comment"># dump pod logs, with label name=myLabel (stdout)</span>
+kubectl logs my-pod -c my-container --previous      <span class="hljs-comment"># dump pod container logs (stdout, multi-container case) for a previous instantiation of a container</span>
+kubectl logs <span class="hljs-_">-f</span> my-pod                              <span class="hljs-comment"># stream pod logs (stdout)</span>
+kubectl logs <span class="hljs-_">-f</span> my-pod -c my-container              <span class="hljs-comment"># stream pod container logs (stdout, multi-container case)</span>
+kubectl logs <span class="hljs-_">-f</span> <span class="hljs-_">-l</span> name=myLabel --all-containers    <span class="hljs-comment"># stream all pods logs with label name=myLabel (stdout)</span>
+kubectl run -i --tty busybox --image=busybox -- sh  <span class="hljs-comment"># Run pod as interactive shell</span>
+kubectl run nginx --image=nginx -n mynamespace      <span class="hljs-comment"># Start a single instance of nginx pod in the namespace of mynamespace</span>
+kubectl run nginx --image=nginx                     <span class="hljs-comment"># Run pod nginx and write its spec into a file called pod.yaml</span>
+--dry-run=client -o yaml &gt; pod.yaml
+
+kubectl attach my-pod -i                            <span class="hljs-comment"># Attach to Running Container</span>
+kubectl port-forward my-pod 5000:6000               <span class="hljs-comment"># Listen on port 5000 on the local machine and forward to port 6000 on my-pod</span>
+kubectl <span class="hljs-built_in">exec</span> my-pod -- ls /                         <span class="hljs-comment"># Run command in existing pod (1 container case)</span>
+kubectl <span class="hljs-built_in">exec</span> --stdin --tty my-pod -- /bin/sh        <span class="hljs-comment"># Interactive shell access to a running pod (1 container case) </span>
+kubectl <span class="hljs-built_in">exec</span> my-pod -c my-container -- ls /         <span class="hljs-comment"># Run command in existing pod (multi-container case)</span>
+kubectl top pod POD_NAME --containers               <span class="hljs-comment"># Show metrics for a given pod and its containers</span>
+kubectl top pod POD_NAME --sort-by=cpu              <span class="hljs-comment"># Show metrics for a given pod and sort it by &apos;cpu&apos; or &apos;memory&apos;</span>
+</code></pre>
+<h2 id="copy-files-and-directories-to-and-from-containers">Copy files and directories to and from containers</h2>
+<pre><code class="lang-bash">kubectl cp /tmp/foo_dir my-pod:/tmp/bar_dir            <span class="hljs-comment"># Copy /tmp/foo_dir local directory to /tmp/bar_dir in a remote pod in the current namespace</span>
+kubectl cp /tmp/foo my-pod:/tmp/bar -c my-container    <span class="hljs-comment"># Copy /tmp/foo local file to /tmp/bar in a remote pod in a specific container</span>
+kubectl cp /tmp/foo my-namespace/my-pod:/tmp/bar       <span class="hljs-comment"># Copy /tmp/foo local file to /tmp/bar in a remote pod in namespace my-namespace</span>
+kubectl cp my-namespace/my-pod:/tmp/foo /tmp/bar       <span class="hljs-comment"># Copy /tmp/foo from a remote pod to /tmp/bar locally</span>
+</code></pre>
+<p><strong>Note:</strong> <code>kubectl cp</code> requires that the &apos;tar&apos; binary is present in your container image. If &apos;tar&apos; is not present,<code>kubectl cp</code> will fail. For advanced use cases, such as symlinks, wildcard expansion or file mode preservation consider using <code>kubectl exec</code>.</p>
+<pre><code class="lang-bash">tar cf - /tmp/foo | kubectl <span class="hljs-built_in">exec</span> -i -n my-namespace my-pod -- tar xf - -C /tmp/bar           <span class="hljs-comment"># Copy /tmp/foo local file to /tmp/bar in a remote pod in namespace my-namespace</span>
+kubectl <span class="hljs-built_in">exec</span> -n my-namespace my-pod -- tar cf - /tmp/foo | tar xf - -C /tmp/bar    <span class="hljs-comment"># Copy /tmp/foo from a remote pod to /tmp/bar locally</span>
+</code></pre>
+<h2 id="interacting-with-deployments-and-services">Interacting with Deployments and Services</h2>
+<pre><code class="lang-bash">kubectl logs deploy/my-deployment                         <span class="hljs-comment"># dump Pod logs for a Deployment (single-container case)</span>
+kubectl logs deploy/my-deployment -c my-container         <span class="hljs-comment"># dump Pod logs for a Deployment (multi-container case)</span>
+
+kubectl port-forward svc/my-service 5000                  <span class="hljs-comment"># listen on local port 5000 and forward to port 5000 on Service backend</span>
+kubectl port-forward svc/my-service 5000:my-service-port  <span class="hljs-comment"># listen on local port 5000 and forward to Service target port with name &lt;my-service-port&gt;</span>
+
+kubectl port-forward deploy/my-deployment 5000:6000       <span class="hljs-comment"># listen on local port 5000 and forward to port 6000 on a Pod created by &lt;my-deployment&gt;</span>
+kubectl <span class="hljs-built_in">exec</span> deploy/my-deployment -- ls                   <span class="hljs-comment"># run command in first Pod and first container in Deployment (single- or multi-container cases)</span>
+</code></pre>
+<h2 id="interacting-with-nodes-and-cluster">Interacting with Nodes and cluster</h2>
+<pre><code class="lang-bash">kubectl cordon my-node                                                <span class="hljs-comment"># Mark my-node as unschedulable</span>
+kubectl drain my-node                                                 <span class="hljs-comment"># Drain my-node in preparation for maintenance</span>
+kubectl uncordon my-node                                              <span class="hljs-comment"># Mark my-node as schedulable</span>
+kubectl top node my-node                                              <span class="hljs-comment"># Show metrics for a given node</span>
+kubectl cluster-info                                                  <span class="hljs-comment"># Display addresses of the master and services</span>
+kubectl cluster-info dump                                             <span class="hljs-comment"># Dump current cluster state to stdout</span>
+kubectl cluster-info dump --output-directory=/path/to/cluster-state   <span class="hljs-comment"># Dump current cluster state to /path/to/cluster-state</span>
+
+<span class="hljs-comment"># If a taint with that key and effect already exists, its value is replaced as specified.</span>
+kubectl taint nodes foo dedicated=special-user:NoSchedule
+</code></pre>
+<h3 id="resource-types">Resource types</h3>
+<p>List all supported resource types along with their shortnames, <a href="https://kubernetes.io/docs/concepts/overview/kubernetes-api/#api-groups-and-versioning" target="_blank">API group</a>, whether they are <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces" target="_blank">namespaced</a>, and <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects" target="_blank">Kind</a>:</p>
+<pre><code class="lang-bash">kubectl api-resources
+</code></pre>
+<p>Other operations for exploring API resources:</p>
+<pre><code class="lang-bash">kubectl api-resources --namespaced=<span class="hljs-literal">true</span>      <span class="hljs-comment"># All namespaced resources</span>
+kubectl api-resources --namespaced=<span class="hljs-literal">false</span>     <span class="hljs-comment"># All non-namespaced resources</span>
+kubectl api-resources -o name                <span class="hljs-comment"># All resources with simple output (only the resource name)</span>
+kubectl api-resources -o wide                <span class="hljs-comment"># All resources with expanded (aka &quot;wide&quot;) output</span>
+kubectl api-resources --verbs=list,get       <span class="hljs-comment"># All resources that support the &quot;list&quot; and &quot;get&quot; request verbs</span>
+kubectl api-resources --api-group=extensions <span class="hljs-comment"># All resources in the &quot;extensions&quot; API group</span>
+</code></pre>
+<h3 id="formatting-output">Formatting output</h3>
+<p>To output details to your terminal window in a specific format, add the <code>-o</code> (or <code>--output</code>) flag to a supported <code>kubectl</code> command.</p>
+<table>
+<thead>
+<tr>
+<th>Output format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>-o=custom-columns=&lt;spec&gt;</code></td>
+<td>Print a table using a comma separated list of custom columns</td>
+</tr>
+<tr>
+<td><code>-o=custom-columns-file=&lt;filename&gt;</code></td>
+<td>Print a table using the custom columns template in the <code>&lt;filename&gt;</code> file</td>
+</tr>
+<tr>
+<td><code>-o=json</code></td>
+<td>Output a JSON formatted API object</td>
+</tr>
+<tr>
+<td><code>-o=jsonpath=&lt;template&gt;</code></td>
+<td>Print the fields defined in a <a href="https://kubernetes.io/docs/reference/kubectl/jsonpath" target="_blank">jsonpath</a> expression</td>
+</tr>
+<tr>
+<td><code>-o=jsonpath-file=&lt;filename&gt;</code></td>
+<td>Print the fields defined by the <a href="https://kubernetes.io/docs/reference/kubectl/jsonpath" target="_blank">jsonpath</a> expression in the <code>&lt;filename&gt;</code> file</td>
+</tr>
+<tr>
+<td><code>-o=name</code></td>
+<td>Print only the resource name and nothing else</td>
+</tr>
+<tr>
+<td><code>-o=wide</code></td>
+<td>Output in the plain-text format with any additional information, and for pods, the node name is included</td>
+</tr>
+<tr>
+<td><code>-o=yaml</code></td>
+<td>Output a YAML formatted API object</td>
+</tr>
+</tbody>
+</table>
+<p>Examples using <code>-o=custom-columns</code>:</p>
+<pre><code class="lang-bash"><span class="hljs-comment"># All images running in a cluster</span>
+kubectl get pods -A -o=custom-columns=<span class="hljs-string">&apos;DATA:spec.containers[*].image&apos;</span>
+
+<span class="hljs-comment"># All images running in namespace: default, grouped by Pod</span>
+kubectl get pods --namespace default --output=custom-columns=<span class="hljs-string">&quot;NAME:.metadata.name,IMAGE:.spec.containers[*].image&quot;</span>
+
+ <span class="hljs-comment"># All images excluding &quot;k8s.gcr.io/coredns:1.6.2&quot;</span>
+kubectl get pods -A -o=custom-columns=<span class="hljs-string">&apos;DATA:spec.containers[?(@.image!=&quot;k8s.gcr.io/coredns:1.6.2&quot;)].image&apos;</span>
+
+<span class="hljs-comment"># All fields under metadata regardless of name</span>
+kubectl get pods -A -o=custom-columns=<span class="hljs-string">&apos;DATA:metadata.*&apos;</span>
+</code></pre>
+<p>More examples in the kubectl <a href="https://kubernetes.io/docs/reference/kubectl/overview/#custom-columns" target="_blank">reference documentation</a>.</p>
+<h3 id="kubectl-output-verbosity-and-debugging">Kubectl output verbosity and debugging</h3>
+<p>Kubectl verbosity is controlled with the <code>-v</code> or <code>--v</code> flags followed by an integer representing the log level. General Kubernetes logging conventions and the associated log levels are described <a href="https://github.com/kubernetes/community/blob/master/contributors/devel/sig-instrumentation/logging.md" target="_blank">here</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Verbosity</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--v=0</code></td>
+<td>Generally useful for this to <em>always</em> be visible to a cluster operator.</td>
+</tr>
+<tr>
+<td><code>--v=1</code></td>
+<td>A reasonable default log level if you don&apos;t want verbosity.</td>
+</tr>
+<tr>
+<td><code>--v=2</code></td>
+<td>Useful steady state information about the service and important log messages that may correlate to significant changes in the system. This is the recommended default log level for most systems.</td>
+</tr>
+<tr>
+<td><code>--v=3</code></td>
+<td>Extended information about changes.</td>
+</tr>
+<tr>
+<td><code>--v=4</code></td>
+<td>Debug level verbosity.</td>
+</tr>
+<tr>
+<td><code>--v=5</code></td>
+<td>Trace level verbosity.</td>
+</tr>
+<tr>
+<td><code>--v=6</code></td>
+<td>Display requested resources.</td>
+</tr>
+<tr>
+<td><code>--v=7</code></td>
+<td>Display HTTP request headers.</td>
+</tr>
+<tr>
+<td><code>--v=8</code></td>
+<td>Display HTTP request contents.</td>
+</tr>
+<tr>
+<td><code>--v=9</code></td>
+<td>Display HTTP request contents without truncation of contents.</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../config/kubeconfig.html" class="navigation navigation-prev " aria-label="Previous page: kubeconfig">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../config/api.html" class="navigation navigation-next " aria-label="Next page: API">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"kubectl","level":"1.4.2","depth":2,"next":{"title":"API","level":"1.4.3","depth":2,"path":"config/api.md","ref":"config/api.md","articles":[]},"previous":{"title":"kubeconfig","level":"1.4.1","depth":2,"path":"config/kubeconfig.md","ref":"config/kubeconfig.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["splitter","expandable-chapters","livereload"],"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/style.css"}},"file":{"path":"basic/kubectl.md","mtime":"2022-11-08T09:11:34.595Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-16T07:54:56.792Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
